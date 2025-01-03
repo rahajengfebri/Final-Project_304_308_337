@@ -49,7 +49,7 @@ Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 
 
 
-![download (1)](https://github.com/user-attachments/assets/2466f5b6-b5ab-4239-be00-af4bc7911ac1)
+A.    ![download (1)](https://github.com/user-attachments/assets/2466f5b6-b5ab-4239-be00-af4bc7911ac1)
 Distribusi Pemesanan Berdasarkan Tipe Hotel: Jumlah pemesanan untuk City Hotel mencapai 79.330, sedangkan Resort Hotel hanya 40.060. Perbedaan signifikan ini menunjukkan bahwa City Hotel lebih populer, kemungkinan karena lokasinya yang lebih strategis untuk perjalanan bisnis dan singkat, sementara Resort Hotel lebih jarang dipilih, yang umumnya dipilih untuk liburan yang lebih jarang dilakukan.
 
 Pola Preferensi Pelanggan: Pelanggan lebih sering memilih City Hotel, kemungkinan karena akses yang lebih mudah ke pusat bisnis. Resort Hotel lebih jarang dipilih, karena lebih cocok untuk liburan atau wisata, yang biasanya terjadi lebih jarang dibandingkan perjalanan bisnis.
