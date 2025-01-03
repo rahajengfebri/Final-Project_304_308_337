@@ -79,12 +79,42 @@ D. Jenis pemesanan apa yang paling sering digunakan oleh pelanggan (Contract, Gr
 Sebagian besar pemesanan berasal dari Transient (perjalanan individu atau keluarga kecil) yang menginginkan fleksibilitas dalam pemesanan. Konsumen dalam kategori Transient-Party juga populer, namun dengan jumlah lebih kecil, sementara Contract dan Group lebih jarang dipilih.
 
 
-
+## Temuan Baru 
 ![download (6)](https://github.com/user-attachments/assets/6e21a17c-85f6-438e-848e-0f96e51929b8)
 
+Dari hasil visualisasi diatas, dapat dilihat bahwa pemesanan paling banyak terjadi pada musim summer, khususnya pada bulan Juni, Juli, dan Agustus. Ini menunjukkan bahwa banyak tamu yang memilih untuk menginap di hotel selama liburan musim panas, yang biasanya bertepatan dengan liburan sekolah atau waktu-waktu liburan yang lebih panjang.
 
 ![download (7)](https://github.com/user-attachments/assets/c8118450-2453-439d-9525-a567af9c794b)
 
+Berdasarkan grafik yang disajikan, hubungan antara lead time (jumlah hari antara tanggal pemesanan masuk ke sistem dan tanggal kedatangan) dengan customer type dapat dianalisis sebagai berikut:
+
+1. Customer Type "Contract"
+
+Jumlah pemesanan tercatat sangat kecil untuk semua kategori lead time.
+Hal ini menunjukkan bahwa pemesanan tipe kontrak kemungkinan besar tidak bergantung pada lead time, karena biasanya dilakukan dalam skema perjanjian jangka panjang antara pihak hotel dan perusahaan atau organisasi tertentu.
+
+2. Customer Type "Group"
+
+Pemesanan tipe ini juga sangat sedikit di semua kategori lead time.
+Fenomena ini mengindikasikan bahwa tipe grup tidak mendominasi dalam dataset yang dianalisis. Pemesanan grup cenderung dilakukan untuk keperluan acara tertentu yang memiliki pola lead time yang berbeda.
+
+3. Customer Type "Transient"
+
+Jenis pelanggan ini mendominasi jumlah pemesanan, terutama pada kategori lead time:
+31-100 Hari dan 101-365 Hari, dengan jumlah pemesanan tertinggi.
+Pemesanan dalam kategori 0-7 Hari juga signifikan, mengindikasikan adanya kebutuhan mendadak atau pemesanan last-minute.
+Pola ini menunjukkan bahwa pelanggan transient cenderung memesan jauh hari, namun sebagian kecil juga memesan mendekati tanggal kedatangan.
+
+4. Customer Type "Transient-Party"
+
+Pola pada kategori ini mirip dengan "Transient" tetapi dengan jumlah yang lebih kecil.
+Kategori lead time yang mendominasi tetap berada di rentang 31-100 Hari dan 101-365 Hari, dengan pemesanan dalam kategori lead time lebih pendek seperti 0-7 Hari yang lebih jarang.
+
+**Kesimpulan**
+
+- Pelanggan Transient merupakan kelompok dominan dalam data ini, dengan lead time yang bervariasi tetapi cenderung memesan jauh hari (31-365 hari).
+- Pelanggan dengan tipe Contract dan Group memiliki jumlah pemesanan yang jauh lebih kecil, sehingga tidak terlalu terpengaruh oleh faktor lead time.
+- Lead time menjadi indikator penting dalam memprediksi kebutuhan kamar hotel, khususnya untuk pelanggan transient, sehingga dapat digunakan untuk menyusun strategi pemasaran yang lebih efektif.
 
 
 
