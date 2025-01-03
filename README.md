@@ -24,6 +24,11 @@ Dapat mengembangkan layanan untuk semua pelanggan.
 Merancang Strategi pemasaran yang lebih baik.
 Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 
+**D. Manfaat Analisis bagi Konsumen**
+
+1. Meningkatkan kualitas layanan hotel, sehingga pelanggan akan merasa lebih puas dan nyaman.
+2. Membangun hubungan yang lebih baik dengan pelanggan untuk menciptakan pengalaman yang positif dan mendorong pelanggan untuk tetap memilih hotel tersebut di masa mendatang.
+
 **2. Analisis Data**
 
 **A. Variabel-variabel berikut untuk dianalisis**
@@ -32,12 +37,12 @@ Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 3. Meal (Jenis paket makanan yang dipesan).
 4. is_repeated_guest (Pelanggan yang pernah memesan sebelumnya).
 5. Customer Type (Jenis pemesanan pelanggan).
-6. Metodologi yang Digunakan :
 
-**B. Menangani Missing Value**
-1. Exploratory Data Analysis (EDA) yaitu mengidentifikasi pola dan tren untuk memahami perilaku pelanggan.
-2. Analisis Waktu yaitu menggunakan variabel arrival_date_month dan arrival_date_day_of_month untuk menentukan bulan dan tanggal dengan jumlah pemesanan terbanyak.
-3. Menyusun wawasan dari analisis yang dilakukan.
+**B. Metodologi yang Digunakan **
+1. Menangani Missing Value
+2. Exploratory Data Analysis (EDA) yaitu mengidentifikasi pola dan tren untuk memahami perilaku pelanggan.
+3. Analisis Waktu yaitu menggunakan variabel arrival_date_month dan arrival_date_day_of_month untuk menentukan bulan dan tanggal dengan jumlah pemesanan terbanyak.
+4. Menyusun wawasan dari analisis yang dilakukan.
 
 
 
