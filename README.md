@@ -49,6 +49,7 @@ Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 
 
 **3. Hasil Analisis**
+
 A. Apakah terdapat pola dalam preferensi pelanggan terhadap tipe hotel tertentu? Hotel mana yang lebih sering dipilih oleh pelanggan, apakah Resort Hotel atau City Hotel?
 
 ![download (1)](https://github.com/user-attachments/assets/2466f5b6-b5ab-4239-be00-af4bc7911ac1)
@@ -56,8 +57,10 @@ A. Apakah terdapat pola dalam preferensi pelanggan terhadap tipe hotel tertentu?
 City Hotel lebih disukai oleh konsumen, terutama untuk perjalanan bisnis atau singkat, karena lokasinya yang strategis. Namun, Resort Hotel memiliki peluang untuk menarik lebih banyak konsumen selama musim liburan jika strategi pemasaran difokuskan pada pengalaman liburan yang menarik.
 
 
-
+B. Pada bulan dan tanggal berapa puncak pemesanan hotel biasanya terjadi? Apakah terdapat musim tertentu yang memengaruhi tingkat pemesanan hotel?
 ![download (2)](https://github.com/user-attachments/assets/90d9ae0f-f810-40be-bdae-8827f6b9cb4c)
+
+Konsumen cenderung memilih hotel selama musim liburan, terutama pada bulan Juli, Agustus, dan Mei, yang merupakan waktu yang populer untuk berlibur di Eropa. Ini menunjukkan bahwa konsumen lebih sering melakukan pemesanan di periode tersebut.
 
 
 
