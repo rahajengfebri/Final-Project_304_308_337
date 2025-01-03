@@ -25,6 +25,7 @@ Merancang Strategi pemasaran yang lebih baik.
 Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 
 **2. Analisis Data**
+
 **A. Variabel-variabel berikut untuk dianalisis**
 1. Hotel (Jenis hotel yang dipesan).
 2. Arrival Date (Month dan Day of Month).
