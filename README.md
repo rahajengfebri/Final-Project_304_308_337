@@ -3,6 +3,7 @@
 ![image](https://github.com/user-attachments/assets/ef8b9eda-a9b8-4e41-95a9-93169a15708b)
 
 **1. Pendahuluan**
+
 **A. Dataset**
 Dataset ini berisi informasi tentang reservasi hotel dengan total 119.390 entri dan 32 kolom yang mencakup berbagai aspek terkait pemesanan. Dataset ini mencatat dua jenis hotel, yaitu Resort Hotel dan City Hotel, serta status apakah reservasi dibatalkan (is_canceled). Informasi penting lainnya mencakup waktu antara pemesanan dan kedatangan tamu (lead_time), tanggal kedatangan seperti tahun (arrival_date_year), bulan (arrival_date_month), dan nomor minggu kedatangan (arrival_date_week_number). Jumlah malam menginap di akhir pekan (stays_in_weekend_nights) dan hari kerja (stays_in_week_nights) juga tercatat, bersama dengan jumlah orang dewasa (adults), anak-anak (children), dan bayi (babies) yang termasuk dalam reservasi.
 
