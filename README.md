@@ -49,8 +49,6 @@ Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 
 
 
-![download (3)](https://github.com/user-attachments/assets/6ee86ac4-d9cd-40fe-8bea-71d8fa4a0783)
-
 
 ![download (4)](https://github.com/user-attachments/assets/5aec5786-4e3c-40d5-8893-af0a120d643a)
 
