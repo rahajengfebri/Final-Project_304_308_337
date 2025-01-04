@@ -194,6 +194,23 @@ Hasil analisis ini memberikan wawasan mengenai perbedaan tingkat pembatalan anta
 ![download (1)](https://github.com/user-attachments/assets/4bbad8a4-2bfb-471a-af6f-84a88f3d8458)
 
 ### 4.3
+
+Dalam analisis ini, kami membandingkan rata-rata lama menginap tamu berdasarkan dua tipe hotel: City Hotel dan Resort Hotel. Lama menginap dihitung dengan menjumlahkan **`stays_in_weekend_nights`** dan **`stays_in_week_nights`**. Perbandingan ini memberikan wawasan mengenai kebiasaan tamu dalam memilih lama menginap, yang berguna untuk perencanaan pengelolaan sumber daya dan strategi pemasaran.
+
+---
+- Cara Kerja:
+
+1. **Menambahkan Kolom `total_stays`**: 
+   - Menghitung total malam menginap dengan menjumlahkan **`stays_in_weekend_nights`** dan **`stays_in_week_nights`**.
+
+2. **Mengelompokkan Data dan Menghitung Rata-rata**: 
+   - Data dikelompokkan berdasarkan **`hotel`** dan dihitung rata-rata **`total_stays`** untuk setiap tipe hotel.
+
+3. **Visualisasi**: 
+   - Membuat grafik batang (barplot) untuk membandingkan rata-rata lama menginap antara City Hotel dan Resort Hotel.
+
+Hasil analisis ini memberikan gambaran tentang perbedaan kebiasaan lama menginap antara kedua tipe hotel, yang dapat digunakan untuk strategi pemasaran dan manajemen yang lebih efektif.
+
 ### 4.4 Type Costumer Berdasarkan Lama Pemesanan
 Dalam analisis ini, kami membandingkan **Lead Time Category** berdasarkan **customer type**, termasuk kategori baru **transient-party**. **Lead Time** dibagi menjadi lima rentang waktu yang lebih detail:  
 
