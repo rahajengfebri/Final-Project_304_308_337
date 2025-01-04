@@ -148,7 +148,7 @@ Berikut adalah strategi imputasi untuk menangani missing value dalam dataset:
 
 ## ** Analysys Pernyataan Masalah**
 # Temuan Informasi Baru 
-![download (6)](https://github.com/user-attachments/assets/6e21a17c-85f6-438e-848e-0f96e51929b8)
+![download](https://github.com/user-attachments/assets/097f178b-e68a-4bda-828d-a908a079c85e)
 
 Dari hasil visualisasi diatas, dapat dilihat bahwa pemesanan paling banyak terjadi pada musim summer, khususnya pada bulan Juni, Juli, dan Agustus. Ini menunjukkan bahwa banyak tamu yang memilih untuk menginap di hotel selama liburan musim panas, yang biasanya bertepatan dengan liburan sekolah atau waktu-waktu liburan yang lebih panjang.
 
