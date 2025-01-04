@@ -192,8 +192,8 @@ Dalam analisis ini, kami membandingkan tingkat pembatalan pemesanan berdasarkan 
 Hasil analisis ini memberikan wawasan mengenai perbedaan tingkat pembatalan antara tipe hotel, yang dapat membantu manajemen hotel untuk merencanakan strategi pengelolaan lebih baik.
 
 ![download (1)](https://github.com/user-attachments/assets/4bbad8a4-2bfb-471a-af6f-84a88f3d8458)
-
-### 4.3
+Hasil analisis menunjukkan bahwa **City Hotel** memiliki tingkat pembatalan lebih tinggi, mungkin karena kebijakan pembatalan lebih longgar atau ketidakpastian perjalanan bisnis. **Resort Hotel** memiliki tingkat pembatalan lebih rendah, meski masih ada potensi pembatalan yang dipengaruhi faktor cuaca atau perubahan rencana liburan.
+### 4.3 Lama menginap pelanggan pada City Hotel dan Resort Hotel
 
 Dalam analisis ini, kami membandingkan rata-rata lama menginap tamu berdasarkan dua tipe hotel: City Hotel dan Resort Hotel. Lama menginap dihitung dengan menjumlahkan **`stays_in_weekend_nights`** dan **`stays_in_week_nights`**. Perbandingan ini memberikan wawasan mengenai kebiasaan tamu dalam memilih lama menginap, yang berguna untuk perencanaan pengelolaan sumber daya dan strategi pemasaran.
 
@@ -210,6 +210,8 @@ Dalam analisis ini, kami membandingkan rata-rata lama menginap tamu berdasarkan 
    - Membuat grafik batang (barplot) untuk membandingkan rata-rata lama menginap antara City Hotel dan Resort Hotel.
 
 Hasil analisis ini memberikan gambaran tentang perbedaan kebiasaan lama menginap antara kedua tipe hotel, yang dapat digunakan untuk strategi pemasaran dan manajemen yang lebih efektif.
+![download (2)](https://github.com/user-attachments/assets/42078715-4ae4-4227-99b1-6f9ec384690c)
+
 
 ### 4.4 Type Costumer Berdasarkan Lama Pemesanan
 Dalam analisis ini, kami membandingkan **Lead Time Category** berdasarkan **customer type**, termasuk kategori baru **transient-party**. **Lead Time** dibagi menjadi lima rentang waktu yang lebih detail:  
