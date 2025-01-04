@@ -192,6 +192,7 @@ Dalam analisis ini, kami membandingkan tingkat pembatalan pemesanan berdasarkan 
 Hasil analisis ini memberikan wawasan mengenai perbedaan tingkat pembatalan antara tipe hotel, yang dapat membantu manajemen hotel untuk merencanakan strategi pengelolaan lebih baik.
 
 ![download (1)](https://github.com/user-attachments/assets/4bbad8a4-2bfb-471a-af6f-84a88f3d8458)
+
 Hasil analisis menunjukkan bahwa **City Hotel** memiliki tingkat pembatalan lebih tinggi, mungkin karena kebijakan pembatalan lebih longgar atau ketidakpastian perjalanan bisnis. **Resort Hotel** memiliki tingkat pembatalan lebih rendah, meski masih ada potensi pembatalan yang dipengaruhi faktor cuaca atau perubahan rencana liburan.
 ### 4.3 Lama menginap pelanggan pada City Hotel dan Resort Hotel
 
