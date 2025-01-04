@@ -25,9 +25,43 @@ Dengan analisis mendalam terhadap data ini, laporan ini bertujuan untuk memberik
 ### 1.2 Data dan Metodologi yang Digunakan
 #### **Dataset**
 
-Dataset ini berisi informasi tentang reservasi hotel dengan total 119.390 entri dan 32 kolom yang mencakup berbagai aspek terkait pemesanan. Dataset ini mencatat dua jenis hotel, yaitu Resort Hotel dan City Hotel, serta status apakah reservasi dibatalkan (is_canceled). Informasi penting lainnya mencakup waktu antara pemesanan dan kedatangan tamu (lead_time), tanggal kedatangan seperti tahun (arrival_date_year), bulan (arrival_date_month), dan nomor minggu kedatangan (arrival_date_week_number). Jumlah malam menginap di akhir pekan (stays_in_weekend_nights) dan hari kerja (stays_in_week_nights) juga tercatat, bersama dengan jumlah orang dewasa (adults), anak-anak (children), dan bayi (babies) yang termasuk dalam reservasi.
+Dataset ini berisi informasi tentang reservasi hotel dengan total 119.390 entri dan 32 kolom yang mencakup berbagai aspek terkait pemesanan. 
 
-Selain itu, dataset ini mencakup informasi seperti paket makanan yang dipesan (meal), negara asal tamu (country), dan segmen pasar dari mana tamu berasal (market_segment). Data juga mencatat apakah tamu merupakan pelanggan berulang (is_repeated_guest), tipe kamar yang dipesan (reserved_room_type), tipe kamar yang diberikan (assigned_room_type), serta pendapatan harian rata-rata hotel (Average Daily Rate atau adr). Status reservasi (reservation_status) dan tanggal status tersebut diperbarui terakhir kali (reservation_status_date) turut disertakan.
+| No | Variabel                        | Deskripsi                                                                                                                |
+|----|---------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 1  | hotel                           | Tipe hotel: H1 = Resort Hotel, H2 = City Hotel                                                                           |
+| 2  | is_canceled                     | Indikator apakah pemesanan dibatalkan (1) atau tidak (0)                                                                 |
+| 3  | lead_time                       | Jumlah hari antara tanggal pemesanan masuk ke sistem hotel (PMS) dan tanggal kedatangan                                  |
+| 4  | arrival_date_year               | Tahun dari tanggal kedatangan                                                                                           |
+| 5  | arrival_date_month              | Bulan dari tanggal kedatangan                                                                                           |
+| 6  | arrival_date_week_number        | Nomor minggu dalam tahun untuk tanggal kedatangan                                                                       |
+| 7  | arrival_date_day_of_month       | Hari dalam bulan dari tanggal kedatangan                                                                                |
+| 8  | stays_in_weekend_nights         | Jumlah malam di akhir pekan (Sabtu/Minggu) yang dipesan                                                                 |
+| 9  | stays_in_week_nights            | Jumlah malam di hari kerja (Senin-Jumat) yang dipesan                                                                   |
+| 10 | adults                          | Jumlah orang dewasa dalam pemesanan                                                                                     |
+| 11 | children                        | Jumlah anak-anak dalam pemesanan                                                                                        |
+| 12 | babies                          | Jumlah bayi dalam pemesanan                                                                                             |
+| 13 | meal                            | Paket makanan: Undefined/SC (tidak ada), BB (Bed & Breakfast), HB (Half board), FB (Full board)                         |
+| 14 | country                         | Negara asal tamu dalam format ISO 3166-3                                                                                |
+| 15 | market_segment                  | Segmentasi pasar untuk pemesanan: Agen Perjalanan (TA) atau Operator Tur (TO)                                           |
+| 16 | distribution_channel            | Saluran distribusi untuk pemesanan                                                                                      |
+| 17 | is_repeated_guest               | Indikator apakah tamu pernah memesan sebelumnya (1) atau tidak (0)                                                      |
+| 18 | previous_cancellations          | Jumlah pemesanan sebelumnya yang dibatalkan                                                                             |
+| 19 | previous_bookings_not_canceled  | Jumlah pemesanan sebelumnya yang tidak dibatalkan                                                                       |
+| 20 | reserved_room_type              | Kode jenis kamar yang dipesan (anonim)                                                                                  |
+| 21 | assigned_room_type              | Kode jenis kamar yang diberikan (bisa berbeda dari yang dipesan)                                                        |
+| 22 | booking_changes                 | Jumlah perubahan pada pemesanan                                                                                         |
+| 23 | deposit_type                    | Jenis deposit: No Deposit, Non Refund, Refundable                                                                       |
+| 24 | agent                           | ID agen perjalanan yang membuat pemesanan                                                                               |
+| 25 | company                         | ID perusahaan yang membuat atau membayar pemesanan                                                                      |
+| 26 | days_in_waiting_list            | Jumlah hari pemesanan berada dalam daftar tunggu                                                                        |
+| 27 | customer_type                   | Jenis pelanggan: Contract, Group, Transient, Transient-party                                                            |
+| 28 | adr                             | Tarif harian rata-rata (Average Daily Rate)                                                                             |
+| 29 | required_car_parking_spaces     | Jumlah tempat parkir yang diminta oleh tamu                                                                             |
+| 30 | total_of_special_requests       | Jumlah permintaan khusus dari tamu                                                                                      |
+| 31 | reservation_status              | Status pemesanan: Canceled, Check-Out, No-Show                                                                          |
+| 32 | reservation_status_date         | Tanggal ketika status terakhir pemesanan ditetapkan                                                                     |
+
 
 Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah anak-anak (children), agen pemesanan (agent), dan perusahaan (company). Terutama, data perusahaan hanya terisi pada sekitar 6.797 entri dari total 119.390 entri.
 
