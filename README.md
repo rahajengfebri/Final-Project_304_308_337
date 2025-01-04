@@ -146,9 +146,8 @@ Berikut adalah strategi imputasi untuk menangani missing value dalam dataset:
 | `agent`       | Missing value diimputasikan dengan kategori **"Direct Booking"**, karena pemesanan dilakukan tanpa agen.        |
 | `company`     | Tidak diimputasikan, karena sebagian besar (56,58%) nilai hilang. Kolom ini dihapus karena tidak relevan dengan analisis. |  
 
-## 4. Eksplorasi dan analisa data
-### ** Analysys Pernyataan Masalah**
-#### 4.1. 
+## 4. *Eksplorasi dan analisa data*
+### 4.1. *Pemesanan dan Pembatalan Hotel Berdasarkan Musim*
 
 Untuk mempermudah analisis musiman, ditambahkan kolom **'season'** yang mengelompokkan bulan kedatangan tamu (**'arrival_date_month'**) ke dalam empat kategori musim:
 
