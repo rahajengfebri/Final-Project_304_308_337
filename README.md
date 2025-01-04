@@ -13,6 +13,8 @@
 4. [Eksplorasi dan analisa data](#4-eksplorasi-dan-analisa-data)<br>
    4.1 [Pemesanan dan Pembatalan Hotel Berdasarkan Musim](#41-pemesanan-dan-pembatalan-hotel-berdasarkan-musim)<br>
    4.2 [Pembatalan Pemesanan City Hotel dan Resort Hotel](#42-pembatalan-pemesanan-city-hotel-dan-resort-hotel)<br>
+   4.3 [hsfhjs](#)<br>
+   4.4 [Type Costumer Berdasarkan Lama Pemesanan](#44-type-costumer-berdasarkan-lama-pemesanan)<br>
 
 
 ## Hotel Booking 
