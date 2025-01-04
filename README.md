@@ -24,21 +24,12 @@
 ### 1.1. 🌟 **Latar Belakang Masalah**
 Industri perhotelan terus berkembang dengan cepat, dan pemahaman yang mendalam mengenai perilaku pelanggan sangat penting dalam merancang strategi yang tepat. Laporan ini menyajikan analisis data pemesanan hotel untuk mengidentifikasi pola yang dapat membantu hotel dalam meningkatkan operasional dan layanan mereka.
 
-Pernyataan masalah utama yang dibahas meliputi:
+#### Pernyataan Masalah :
 
-1. Pola Preferensi Pelanggan
-Menganalisis preferensi pelanggan dalam memilih tipe hotel (Resort atau City Hotel) untuk membantu hotel menyusun strategi pemasaran yang lebih tepat dan terarah.
-
-2. Puncak Pemesanan dan Pengaruh Musim pada Pemesanan
-Mengidentifikasi waktu puncak pemesanan berdasarkan bulan dan tanggal, serta bagaimana musim memengaruhi tingkat pemesanan. Analisis ini membantu hotel dalam merencanakan kapasitas dan strategi promosi musiman secara lebih efisien.
-
-3. Paket Makanan yang Paling Sering Dipesan
-Mengidentifikasi paket makanan yang paling sering dipesan oleh pelanggan untuk memungkinkan hotel dalam mengoptimalkan penawaran makanan dan meningkatkan pengalaman pelanggan.
-
-4. Jenis Pemesanan yang Paling Sering Digunakan
-Menganalisis jenis pemesanan yang paling sering digunakan oleh pelanggan (Contract, Group, Transient, atau Transient-party), serta bagaimana hal ini mempengaruhi pengelolaan reservasi dan operasional hotel.
-
-Dengan analisis mendalam terhadap data ini, laporan ini bertujuan untuk memberikan wawasan yang membantu hotel dalam merancang strategi pemasaran, mengelola sumber daya secara efisien, serta meningkatkan kepuasan pelanggan.
+1. Penting untuk memahami pola kedatangan tamu berdasarkan musim untuk merencanakan pengelolaan hotel dengan lebih baik.
+2. Diperlukan pemahaman mengenai tingkat pembatalan pemesanan di berbagai jenis hotel untuk membantu manajemen dalam merencanakan strategi pengelolaan pemesanan. Tingkat pembatalan yang tinggi atau rendah pada masing-masing tipe hotel dapat memberi gambaran mengenai kebijakan pemesanan dan alasan di balik pembatalan tersebut.
+3. Mengetahui pola pemesanan berdasarkan lead time dan jenis pelanggan (transient, contract, group, transient-party) sangat penting untuk perencanaan jangka panjang.
+4. Memahami perbedaan lama menginap antara tamu di City Hotel dan Resort Hotel memberikan gambaran mengenai kebiasaan tamu dan preferensi mereka dalam memilih tipe hotel
 
 ### 1.2. 🌟 **Data dan Metodologi yang Digunakan**
 #### **Dataset**
@@ -84,16 +75,25 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 
 ### 1.3 🌟 **Teknik Analisis yang Diusulkan**
 #### **A. Variabel-variabel berikut untuk dianalisis**
-1. Hotel (Jenis hotel yang dipesan).
-2. Arrival Date (Month dan Day of Month).
-3. Meal (Jenis paket makanan yang dipesan).
-4. is_repeated_guest (Pelanggan yang pernah memesan sebelumnya).
-5. Customer Type (Jenis pemesanan pelanggan).
+Dari dataset ini, kami memilih variabel-variabel berikut untuk dianalisis:
+1. Arrival Date Month (Bulan Tanggal Kedatangan)  
+   Variabel ini akan digunakan untuk mengidentifikasi musim atau periode waktu tertentu dalam setahun yang memiliki tingkat pemesanan yang lebih tinggi.
+2. Hotel (Tipe Hotel)  
+   Variabel ini mencakup tipe hotel, yaitu City Hotel dan Resort Hotel. Tipe hotel ini akan dianalisis untuk membandingkan tingkat pemesanan, pembatalan, dan lama menginap pelanggan antara kedua jenis hotel.
+3. Is Canceled (Status Pembatalan)  
+   Variabel ini menunjukkan apakah pemesanan dibatalkan atau tidak. Kami akan menggunakan variabel ini untuk mengukur tingkat pembatalan dan menganalisis perbedaan pembatalan antara City Hotel dan Resort Hotel.
+4. Customer Type (Tipe Pelanggan)  
+   Variabel ini mengelompokkan pelanggan menjadi beberapa kategori, seperti "Contract", "Group", "Transient", dan "Transient-Party". Variabel ini akan digunakan untuk menganalisis pola pemesanan berdasarkan lead time atau waktu antara pemesanan dan kedatangan.
+5. Stays in Weekend Nights (Jumlah Malam Menginap di Akhir Pekan)  
+   Variabel ini digunakan untuk menghitung total lama menginap dengan menambahkan jumlah malam menginap di akhir pekan dan malam menginap di hari kerja. Ini memberikan gambaran umum mengenai durasi menginap yang dipilih oleh pelanggan.
+6. Stays in Week Nights (Jumlah Malam Menginap di Hari Kerja)  
+   Bersama dengan jumlah malam menginap di akhir pekan, variabel ini digunakan untuk menghitung total durasi menginap pelanggan dan membandingkan durasi menginap antara tipe hotel.
 
 #### **B. Metodologi yang Digunakan**
 1. Menangani Missing Value
 2. Exploratory Data Analysis (EDA) yaitu mengidentifikasi pola dan tren untuk memahami perilaku pelanggan.
-3. Analisis Deskriptif untuk mengidentifikasi tren berdasarkan waktu, jenis pemesanan, dan preferensi pelanggan.
+3. Pembuatan variabel baru
+4. Menyusun wawasan dari analisis yang dilakukan.
 
 ### 1.4 🌟 **Manfaat Hasil Analisis**
 #### **Wawasan yang strategis kepada seorang manajer hotel**
