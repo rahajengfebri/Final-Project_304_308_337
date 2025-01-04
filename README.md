@@ -246,7 +246,7 @@ Berdasarkan analisis hubungan antara lead time dan customer type, pelanggan deng
 3. Mengetahui pola pemesanan berdasarkan lead time dan jenis pelanggan untuk perencanaan jangka panjang.
 4. Memahami perbedaan lama menginap antara tamu di City Hotel dan Resort Hotel untuk menggali kebiasaan dan preferensi pelanggan.
 
-# 5.2 Dataset & Metodologi
+## 5.2 Dataset & Metodologi
 - Data yang digunakan dalam analisis ini berasal dari dataset permintaan pemesanan hotel yang dikumpulkan oleh Antonio, Almeida, dan Nunes pada tahun 2019, yang tersedia di GitHub. Dataset ini terdiri dari 119.390 entri dan mencakup 32 variabel terkait pemesanan hotel.
 
 - Metodologi yang Digunakan:
@@ -255,7 +255,7 @@ Berdasarkan analisis hubungan antara lead time dan customer type, pelanggan deng
 3. Analisis Waktu dan Musiman
 4. Penyusunan Wawasan Berdasarkan Hasil Analisis
 
-# 5.3 Wawasan menarik dari analisis
+## 5.3 Wawasan menarik dari analisis
 1. Pemesanan Musim Summer.
 - Pemesanan tertinggi terjadi pada bulan Juni, Juli, dan Agustus (musim panas).
 - Musim panas juga menunjukkan tingkat pembatalan yang paling tinggi.
@@ -273,8 +273,9 @@ Berdasarkan analisis hubungan antara lead time dan customer type, pelanggan deng
 - Resort Hotel memiliki rata-rata lama menginap lebih lama, karena fasilitas untuk liburan panjang dan relaksasi.
 - City Hotel memiliki rata-rata lama menginap lebih pendek, lebih sering digunakan oleh pelancong bisnis
 
-# 5.4 Implikasi analisis terhadap konsumen
+## 5.4 Implikasi analisis terhadap konsumen
 1. Pemesanan Musim Summer
+
 Konsumen lebih memilih menginap pada musim panas (Juni-Agustus), yang bertepatan dengan liburan sekolah dan panjang. Hotel perlu mempersiapkan kapasitas dan layanan yang optimal selama periode ini.
 2. Pembatalan Pemesanan
 - Konsumen di City Hotel cenderung lebih sering membatalkan pemesanan, yang bisa menunjukkan ketidakpastian dalam keputusan mereka. Manajemen hotel harus lebih fleksibel atau meninjau kebijakan pembatalan.
