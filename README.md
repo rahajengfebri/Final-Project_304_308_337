@@ -12,34 +12,34 @@ Selain itu, dataset ini mencakup informasi seperti paket makanan yang dipesan (m
 
 Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah anak-anak (children), agen pemesanan (agent), dan perusahaan (company). Terutama, data perusahaan hanya terisi pada sekitar 6.797 entri dari total 119.390 entri.
 
-**B. Problem Question**
+### **B. Problem Question**
+
 1. Apakah terdapat pola dalam preferensi pelanggan terhadap tipe hotel tertentu? Hotel mana yang lebih sering dipilih oleh pelanggan, apakah Resort Hotel atau City Hotel?
 2. Pada bulan dan tanggal berapa puncak pemesanan hotel biasanya terjadi? Apakah terdapat musim tertentu yang memengaruhi tingkat pemesanan hotel?
 3. Paket makanan apa yang paling sering dipesan oleh pelanggan, dan bagaimana hotel dapat mengoptimalkan layanan berdasarkan preferensi tersebut?
 4. Jenis pemesanan apa yang paling sering digunakan oleh pelanggan (Contract, Group, Transient, atau Transient-party), dan bagaimana distribusinya memengaruhi manajemen reservasi hotel?
 
-
-**C. Wawasan yang strategis kepada seorang manajer hotel**
+### **C. Wawasan yang strategis kepada seorang manajer hotel**
 
 Dapat mengembangkan layanan untuk semua pelanggan.
 Merancang Strategi pemasaran yang lebih baik.
 Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 
-**D. Manfaat Analisis bagi Konsumen**
+### **D. Manfaat Analisis bagi Konsumen**
 
 1. Meningkatkan kualitas layanan hotel, sehingga pelanggan akan merasa lebih puas dan nyaman.
 2. Membangun hubungan yang lebih baik dengan pelanggan untuk menciptakan pengalaman yang positif dan mendorong pelanggan untuk tetap memilih hotel tersebut di masa mendatang.
 
-**2. Analisis Data**
+## **2. Analisis Data**
 
-**A. Variabel-variabel berikut untuk dianalisis**
+### **A. Variabel-variabel berikut untuk dianalisis**
 1. Hotel (Jenis hotel yang dipesan).
 2. Arrival Date (Month dan Day of Month).
 3. Meal (Jenis paket makanan yang dipesan).
 4. is_repeated_guest (Pelanggan yang pernah memesan sebelumnya).
 5. Customer Type (Jenis pemesanan pelanggan).
 
-**B. Metodologi yang Digunakan**
+### **B. Metodologi yang Digunakan**
 1. Menangani Missing Value
 2. Exploratory Data Analysis (EDA) yaitu mengidentifikasi pola dan tren untuk memahami perilaku pelanggan.
 3. Analisis Waktu yaitu menggunakan variabel arrival_date_month dan arrival_date_day_of_month untuk menentukan bulan dan tanggal dengan jumlah pemesanan terbanyak.
@@ -48,34 +48,29 @@ Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 
 ## **3. Hasil Analysis Problem Question**
 
-A. Apakah terdapat pola dalam preferensi pelanggan terhadap tipe hotel tertentu? Hotel mana yang lebih sering dipilih oleh pelanggan, apakah Resort Hotel atau City Hotel?
+### A. Apakah terdapat pola dalam preferensi pelanggan terhadap tipe hotel tertentu? Hotel mana yang lebih sering dipilih oleh pelanggan, apakah Resort Hotel atau City Hotel?
 
 ![download (1)](https://github.com/user-attachments/assets/2466f5b6-b5ab-4239-be00-af4bc7911ac1)
 
 City Hotel lebih disukai oleh konsumen, terutama untuk perjalanan bisnis atau singkat, karena lokasinya yang strategis. Namun, Resort Hotel memiliki peluang untuk menarik lebih banyak konsumen selama musim liburan jika strategi pemasaran difokuskan pada pengalaman liburan yang menarik.
 
-
-B. Pada bulan dan tanggal berapa puncak pemesanan hotel biasanya terjadi? Apakah terdapat musim tertentu yang memengaruhi tingkat pemesanan hotel?
+### B. Pada bulan dan tanggal berapa puncak pemesanan hotel biasanya terjadi? Apakah terdapat musim tertentu yang memengaruhi tingkat pemesanan hotel?
 ![download (2)](https://github.com/user-attachments/assets/90d9ae0f-f810-40be-bdae-8827f6b9cb4c)
 
 - Konsumen cenderung memilih hotel selama musim liburan, terutama pada bulan Juli, Agustus, dan Mei, yang merupakan waktu yang populer untuk berlibur di Eropa. Ini menunjukkan bahwa konsumen lebih sering melakukan pemesanan di periode tersebut.
 - Banyak konsumen yang melakukan pemesanan hotel pada tanggal 5, antara 15-20, dan akhir bulan, yang kemungkinan besar terkait dengan pengaturan keuangan pribadi atau fleksibilitas jadwal kerja.
 
-
-
-C. Paket makanan apa yang paling sering dipesan oleh pelanggan, dan bagaimana hotel dapat mengoptimalkan layanan berdasarkan preferensi tersebut?
+### C. Paket makanan apa yang paling sering dipesan oleh pelanggan, dan bagaimana hotel dapat mengoptimalkan layanan berdasarkan preferensi tersebut?
 
 ![download (4)](https://github.com/user-attachments/assets/5aec5786-4e3c-40d5-8893-af0a120d643a)
 
 Konsumen lebih cenderung memilih paket Bed and Breakfast (BB) karena menawarkan nilai lebih dan sesuai dengan kebutuhan mereka. Paket Half Board (HB) dan Special (SC) juga populer, namun konsumen lebih memilih paket dengan harga yang lebih kompetitif dan menu yang lebih sesuai dengan selera mereka.
 
-
-D. Jenis pemesanan apa yang paling sering digunakan oleh pelanggan (Contract, Group, Transient, atau Transient-party), dan bagaimana distribusinya memengaruhi manajemen reservasi hotel?
+### D. Jenis pemesanan apa yang paling sering digunakan oleh pelanggan (Contract, Group, Transient, atau Transient-party), dan bagaimana distribusinya memengaruhi manajemen reservasi hotel?
 
 ![download (5)](https://github.com/user-attachments/assets/04221e5b-442c-4ab3-a598-5a05bec820a3)
 
 Sebagian besar pemesanan berasal dari Transient (perjalanan individu atau keluarga kecil) yang menginginkan fleksibilitas dalam pemesanan. Konsumen dalam kategori Transient-Party juga populer, namun dengan jumlah lebih kecil, sementara Contract dan Group lebih jarang dipilih.
-
 
 # Temuan Informasi Baru 
 ![download (6)](https://github.com/user-attachments/assets/6e21a17c-85f6-438e-848e-0f96e51929b8)
@@ -115,7 +110,7 @@ Kategori lead time yang mendominasi tetap berada di rentang 31-100 Hari dan 101-
 - Lead time menjadi indikator penting dalam memprediksi kebutuhan kamar hotel, khususnya untuk pelanggan transient, sehingga dapat digunakan untuk menyusun strategi pemasaran yang lebih efektif.
 
 
-#**Kesimpulan secara Menyeluruh** :
+# **Kesimpulan secara Menyeluruh** :
 Berdasarkan hasil analisis yang kami lakukan, kami menyimpulkan bahwa hotel ini memiliki rating sedang, karena masih ada lumayan banyak tamu yang tidak memesan kembali. Hal ini bisa menjadi indikasi adanya ketidakpuasan dari tamu atau adanya aspek-aspek tertentu yang perlu diperbaiki dalam layanan yang diberikan. Kemungkinan penyebabnya adalah layanan yang kurang memadai, seperti fasilitas yang tidak sesuai harapan atau pelayanan yang tidak memuaskan. Selain itu, kurangnya strategi pemasaran yang efektif untuk menarik tamu lama kembali juga bisa menjadi faktor. Hotel mungkin belum memiliki program khusus seperti loyalty program atau penawaran spesial yang dapat memberikan insentif bagi tamu yang sudah pernah menginap. Oleh karena itu, penting bagi hotel untuk meningkatkan kualitas layanan dan menciptakan penawaran yang menarik untuk tamu lama agar mereka tertarik untuk menginap kembali.
 
 
