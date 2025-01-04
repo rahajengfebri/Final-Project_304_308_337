@@ -7,8 +7,8 @@
    1.3 [Teknik Analisis yang Diusulkan](#13-teknik-analisis-yang-diusulkan)<br>
    1.4 [Manfaat Hasil Analisis](#14-manfaat-hasil-analisis)<br>
 2. [Data Preparation](#3--data-preparation)<br>
-   2.1 [Sumber Dataset](#31-sumber-dataset)<br>
-   2.2 [Detail Dataset](#32-detail-dataset)<br>
+   2.1 [Sumber Dataset](#31--sumber-dataset)<br>
+   2.2 [Detail Dataset](#32--detail-dataset)<br>
 
 
 ## Hotel Booking 
