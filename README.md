@@ -10,11 +10,11 @@
 3. [Data Preparation](#3--data-preparation)<br>
    3.1 [Sumber Dataset](#31--sumber-dataset)<br>
    3.2 [Detail Dataset](#32--detail-dataset)<br>
-4. [Eksplorasi dan analisa data](#4-eksplorasi-dan-analisa-data)<br>
-   4.1 [Pemesanan dan Pembatalan Hotel Berdasarkan Musim](#41-pemesanan-dan-pembatalan-hotel-berdasarkan-musim)<br>
-   4.2 [Pembatalan Pemesanan City Hotel dan Resort Hotel](#42-pembatalan-pemesanan-city-hotel-dan-resort-hotel)<br>
-   4.3 [Lama menginap pelanggan pada City Hotel dan Resort Hotel](#43-lama-menginap-pelanggan-pada-city-hotel-dan-resort-hotel)<br>
-   4.4 [Type Costumer Berdasarkan Lama Pemesanan](#44-type-costumer-berdasarkan-lama-pemesanan)<br>
+4. [Eksplorasi dan analisa data](#4--eksplorasi-dan-analisa-data)<br>
+   4.1 [Pemesanan dan Pembatalan Hotel Berdasarkan Musim](#41--pemesanan-dan-pembatalan-hotel-berdasarkan-musim)<br>
+   4.2 [Pembatalan Pemesanan City Hotel dan Resort Hotel](#42--pembatalan-pemesanan-city-hotel-dan-resort-hotel)<br>
+   4.3 [Lama menginap pelanggan pada City Hotel dan Resort Hotel](#43--lama-menginap-pelanggan-pada-city-hotel-dan-resort-hotel)<br>
+   4.4 [Type Costumer Berdasarkan Lama Pemesanan](#44--type-costumer-berdasarkan-lama-pemesanan)<br>
 
 ---
 ## Hotel Booking 
