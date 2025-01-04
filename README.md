@@ -23,6 +23,11 @@ Kelas A
    4.2 [Pembatalan Pemesanan City Hotel dan Resort Hotel](#42--pembatalan-pemesanan-city-hotel-dan-resort-hotel)<br>
    4.3 [Lama menginap pelanggan pada City Hotel dan Resort Hotel](#43--lama-menginap-pelanggan-pada-city-hotel-dan-resort-hotel)<br>
    4.4 [Type Costumer Berdasarkan Lama Pemesanan](#44--type-costumer-berdasarkan-lama-pemesanan)<br>
+5. [Rangkuman](#5-rangkuman)
+   5.1 [Pernyataan Masalah](#51--pernyataan-masalah)
+   5.2 [Dataset & Metodologi](#52--dataset--metodologi)
+   5.3 [Wawasan menarik dari analisis](#53--wawasan-menarik-dari-analisis)
+   5.4 [Implikasi analisis terhadap konsumen](#54--implikasi-analisis-terhadap-konsumen)
 
 ---
 ## Hotel Booking 
