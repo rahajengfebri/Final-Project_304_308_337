@@ -92,6 +92,8 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 ### 1.5 Sumber Dataset
 Data yang digunakan dalam analisis ini berasal dari kumpulan data permintaan pemesanan hotel yang dikumpulkan oleh Antonio, Almeida, dan Nunes pada tahun 2019. Berikut link dataset yang digunakan [(Dataset) ](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/readme.md)
 
+- Tujuan awal data yaitu untuk menyediakan informasi tentang perilaku pelanggan dalam pemesanan hotel, termasuk pola pemesanan, jenis layanan yang dipilih, serta faktor-faktor yang memengaruhi keputusan pemesanan
+
 ## **3. Hasil Analysis Problem Question**
 
 ### A. Apakah terdapat pola dalam preferensi pelanggan terhadap tipe hotel tertentu? Hotel mana yang lebih sering dipilih oleh pelanggan, apakah Resort Hotel atau City Hotel?
