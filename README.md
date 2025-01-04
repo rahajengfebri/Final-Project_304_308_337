@@ -10,6 +10,8 @@
 3. [Data Preparation](#3--data-preparation)<br>
    3.1 [Sumber Dataset](#31--sumber-dataset)<br>
    3.2 [Detail Dataset](#32--detail-dataset)<br>
+4. [Eksplorasi dan analisa data](#4-eksplorasi-dan-analisa-data)<br>
+   4.1 [Pemesanan dan Pembatalan Hotel Berdasarkan Musim](#41-pemesanan-dan-pembatalan-hotel-berdasarkan-musim)<br>
 
 
 ## Hotel Booking 
