@@ -1,9 +1,10 @@
 # Final-Project_304_308_337
 
 # Nama Anggota Kelompok :
-Anissa Yulidha Rodiyah (202110370311304)
-Rahajeng Febri Shafiyah (202110370311308)
-Zahra Sabilla Usman (202110370311337)
+- Anissa Yulidha Rodiyah (202110370311304)
+- Rahajeng Febri Shafiyah (202110370311308)
+- Zahra Sabilla Usman (202110370311337)
+Kelas A
 
 ## Daftar Isi
 1. [Pendahuluan](#1-pendahuluan)<br>
