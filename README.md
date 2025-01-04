@@ -300,6 +300,7 @@ Konsumen lebih memilih menginap pada musim panas (Juni-Agustus), yang bertepatan
 - Konsumen Resort Hotel lebih cenderung menginap lebih lama karena mencari pengalaman liburan dan relaksasi.
 - Konsumen City Hotel biasanya lebih sibuk dan memilih penginapan yang lebih singkat untuk perjalanan bisnis atau wisata singkat.
 
+# Analisis Kami dari Dataset yang Dipakai
 Berdasarkan hasil analisis yang kami lakukan, kami menyimpulkan bahwa hotel ini memiliki **rating sedang**, karena masih ada lumayan banyak tamu yang tidak memesan kembali. Hal ini bisa menjadi indikasi adanya **ketidakpuasan** dari tamu atau adanya aspek-aspek tertentu yang perlu diperbaiki dalam layanan yang diberikan. Kemungkinan penyebabnya adalah layanan yang kurang memadai, seperti fasilitas yang tidak sesuai harapan atau pelayanan yang tidak memuaskan. Selain itu, kurangnya strategi pemasaran yang efektif untuk menarik tamu lama kembali juga bisa menjadi faktor. Hotel mungkin belum memiliki program khusus seperti **loyalty program** atau **penawaran spesial** yang dapat memberikan insentif bagi tamu yang sudah pernah menginap. Oleh karena itu, penting bagi hotel untuk meningkatkan kualitas layanan dan menciptakan penawaran yang menarik untuk tamu lama agar mereka tertarik untuk menginap kembali.
 
 
