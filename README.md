@@ -16,7 +16,7 @@
    4.3 [Lama menginap pelanggan pada City Hotel dan Resort Hotel](#43-lama-menginap-pelanggan-pada-city-hotel-dan-resort-hotel)<br>
    4.4 [Type Costumer Berdasarkan Lama Pemesanan](#44-type-costumer-berdasarkan-lama-pemesanan)<br>
 
-
+---
 ## Hotel Booking 
 ![image](https://github.com/user-attachments/assets/4e3306c2-6618-4be2-b528-f819aa16932f)
 
