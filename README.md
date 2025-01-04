@@ -1,9 +1,6 @@
 # Final-Project_304_308_337
-
-![image](https://github.com/user-attachments/assets/67e963e4-4995-4702-a06f-f73078fe48a3)
+## Hotel Booking 
 ![image](https://github.com/user-attachments/assets/4e3306c2-6618-4be2-b528-f819aa16932f)
-
-
 
 ## **1. Pendahuluan**
 
