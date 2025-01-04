@@ -161,9 +161,6 @@ Untuk mempermudah analisis musiman, ditambahkan kolom **'season'** yang mengelom
 Dengan pengelompokan ini, manajemen hotel dapat menganalisis tren musiman dan membuat keputusan berdasarkan pola permintaan dan pembatalan pada setiap musim. Ini membantu dalam persiapan operasional, seperti penambahan staf atau promosi di musim tertentu.
 
 --- 
-
-Apakah penjelasan ini sudah sesuai?
-
 - Cara Kerja
 1. **Fungsi `categorize_season(month)`**: Mengelompokkan bulan kedatangan tamu ke dalam musim (Summer, Fall, Winter, Spring).
 
@@ -179,7 +176,7 @@ Apakah penjelasan ini sudah cukup singkat?
 ![download](https://github.com/user-attachments/assets/097f178b-e68a-4bda-828d-a908a079c85e)
 
 Dari hasil visualisasi diatas, dapat dilihat bahwa pemesanan paling banyak terjadi pada musim summer, khususnya pada bulan Juni, Juli, dan Agustus. Ini menunjukkan bahwa banyak tamu yang memilih untuk menginap di hotel selama liburan musim panas, yang biasanya bertepatan dengan liburan sekolah atau waktu-waktu liburan yang lebih panjang.
-
+---
 ![download (7)](https://github.com/user-attachments/assets/c8118450-2453-439d-9525-a567af9c794b)
 
 Berdasarkan grafik yang disajikan, hubungan antara lead time (jumlah hari antara tanggal pemesanan masuk ke sistem dan tanggal kedatangan) dengan customer type dapat dianalisis sebagai berikut:
