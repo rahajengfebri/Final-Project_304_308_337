@@ -1,7 +1,7 @@
 # Final-Project_304_308_337
 
 ## Daftar Isi
-1. [Pendahuluan](#pendahuluan)
+1. [Pendahuluan](#1--pendahuluan)
    1. [Latar Belakang Masalah](#latar-belakang-masalah)
    2. [Data dan Metodologi yang Digunakan](#data-dan-metodologi-yang-digunakan)
       
