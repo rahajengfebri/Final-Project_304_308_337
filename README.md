@@ -179,6 +179,16 @@ Dari hasil visualisasi diatas, dapat dilihat bahwa pemesanan paling banyak terja
 ### 4.2 Pembatalan Pemesanan City Hotel dan Resort Hotel
 Dalam analisis ini, kami membandingkan tingkat pembatalan pemesanan berdasarkan dua tipe hotel: City Hotel dan Resort Hotel. Tingkat pembatalan dihitung sebagai persentase dari total pemesanan yang dibatalkan. Perbandingan ini memungkinkan untuk memahami perbedaan tingkat pembatalan antara kedua tipe hotel, yang dapat membantu dalam perencanaan sumber daya dan strategi pemasaran.
 
+Rumus untuk menghitung tingkat pembatalan (cancellation_rate) adalah sebagai berikut:
+
+$$
+\text{cancellation_rate} = \left( \frac{\text{df['is_canceled'].transform('mean')}}{\text{df.groupby('hotel')['is_canceled'].transform('mean')}} \right) \times 100
+$$
+
+Penjelasan:
+- **df['is_canceled'].transform('mean')**: Menghitung rata-rata tingkat pembatalan untuk seluruh data.
+- **df.groupby('hotel')['is_canceled'].transform('mean')**: Menghitung rata-rata tingkat pembatalan per tipe hotel.
+- **cancellation_rate**: Menghitung tingkat pembatalan sebagai persentase per hotel.
 ---
 - **Cara Kerja:**
 
