@@ -1,18 +1,15 @@
 # Final-Project_304_308_337
 
 ## Daftar Isi
-1. [Pendahuluan](#1--pendahuluan)
-   1. [Latar Belakang Masalah](#11--latar-belakang-masalah)
-   2. [Data dan Metodologi yang Digunakan](#12--data-dan-metodologi-yang-digunakan)
-   3. [Teknik Analisis yang Diusulkan](#13-teknik-analisis-yang-diusulkan)
-   4. [Manfaat Hasil Analisis](#14-manfaat-hasil-analisis)
-5. [Data Preparation](#3--data-preparation)
-   6.[Sumber Dataset](#31--sumber-dataset) 
-   7.[Detail Dataset](#32-%EF%B8%8F-detail-dataset) 
-      
-Manfaat Hasil Analisis
+1. [Pendahuluan](#1-pendahuluan)
+   1.1 [Latar Belakang Masalah](#11-latar-belakang-masalah)
+   1.2 [Data dan Metodologi yang Digunakan](#12-data-dan-metodologi-yang-digunakan)
+   1.3 [Teknik Analisis yang Diusulkan](#13-teknik-analisis-yang-diusulkan)
+   1.4 [Manfaat Hasil Analisis](#14-manfaat-hasil-analisis)
+2. [Data Preparation](#3-data-preparation)
+   2.1 [Sumber Dataset](#31-sumber-dataset) 
+   2.2 [Detail Dataset](#32-detail-dataset)
 
-      
 ## Hotel Booking 
 ![image](https://github.com/user-attachments/assets/4e3306c2-6618-4be2-b528-f819aa16932f)
 
