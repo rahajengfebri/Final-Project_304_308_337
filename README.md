@@ -211,7 +211,7 @@ Dalam analisis ini, kami membandingkan rata-rata lama menginap tamu berdasarkan 
 
 Hasil analisis ini memberikan gambaran tentang perbedaan kebiasaan lama menginap antara kedua tipe hotel, yang dapat digunakan untuk strategi pemasaran dan manajemen yang lebih efektif.
 ![download (2)](https://github.com/user-attachments/assets/42078715-4ae4-4227-99b1-6f9ec384690c)
-
+Berdasarkan hasil visualisasi, rata-rata lama menginap di **Resort Hotel** lebih lama dibandingkan **City Hotel**, karena **Resort Hotel** menawarkan fasilitas untuk liburan panjang, sementara **City Hotel** lebih sering digunakan untuk perjalanan bisnis atau wisata singkat.
 
 ### 4.4 Type Costumer Berdasarkan Lama Pemesanan
 Dalam analisis ini, kami membandingkan **Lead Time Category** berdasarkan **customer type**, termasuk kategori baru **transient-party**. **Lead Time** dibagi menjadi lima rentang waktu yang lebih detail:  
