@@ -3,8 +3,25 @@
 ![image](https://github.com/user-attachments/assets/4e3306c2-6618-4be2-b528-f819aa16932f)
 
 ## **1. Pendahuluan**
+Industri perhotelan terus berkembang dengan cepat, dan pemahaman yang mendalam mengenai perilaku pelanggan sangat penting dalam merancang strategi yang tepat. Laporan ini menyajikan analisis data pemesanan hotel untuk mengidentifikasi pola yang dapat membantu hotel dalam meningkatkan operasional dan layanan mereka.
 
-### **A. Dataset**
+Pernyataan masalah utama yang dibahas meliputi:
+
+1. Pola Preferensi Pelanggan
+Menganalisis preferensi pelanggan dalam memilih tipe hotel (Resort atau City Hotel) untuk membantu hotel menyusun strategi pemasaran yang lebih tepat dan terarah.
+
+2. Puncak Pemesanan dan Pengaruh Musim pada Pemesanan
+Mengidentifikasi waktu puncak pemesanan berdasarkan bulan dan tanggal, serta bagaimana musim memengaruhi tingkat pemesanan. Analisis ini membantu hotel dalam merencanakan kapasitas dan strategi promosi musiman secara lebih efisien.
+
+3. Paket Makanan yang Paling Sering Dipesan
+Mengidentifikasi paket makanan yang paling sering dipesan oleh pelanggan untuk memungkinkan hotel dalam mengoptimalkan penawaran makanan dan meningkatkan pengalaman pelanggan.
+
+4. Jenis Pemesanan yang Paling Sering Digunakan
+Menganalisis jenis pemesanan yang paling sering digunakan oleh pelanggan (Contract, Group, Transient, atau Transient-party), serta bagaimana hal ini mempengaruhi pengelolaan reservasi dan operasional hotel.
+
+Dengan analisis mendalam terhadap data ini, laporan ini bertujuan untuk memberikan wawasan yang membantu hotel dalam merancang strategi pemasaran, mengelola sumber daya secara efisien, serta meningkatkan kepuasan pelanggan.
+
+### **Dataset**
 
 Dataset ini berisi informasi tentang reservasi hotel dengan total 119.390 entri dan 32 kolom yang mencakup berbagai aspek terkait pemesanan. Dataset ini mencatat dua jenis hotel, yaitu Resort Hotel dan City Hotel, serta status apakah reservasi dibatalkan (is_canceled). Informasi penting lainnya mencakup waktu antara pemesanan dan kedatangan tamu (lead_time), tanggal kedatangan seperti tahun (arrival_date_year), bulan (arrival_date_month), dan nomor minggu kedatangan (arrival_date_week_number). Jumlah malam menginap di akhir pekan (stays_in_weekend_nights) dan hari kerja (stays_in_week_nights) juga tercatat, bersama dengan jumlah orang dewasa (adults), anak-anak (children), dan bayi (babies) yang termasuk dalam reservasi.
 
@@ -12,20 +29,13 @@ Selain itu, dataset ini mencakup informasi seperti paket makanan yang dipesan (m
 
 Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah anak-anak (children), agen pemesanan (agent), dan perusahaan (company). Terutama, data perusahaan hanya terisi pada sekitar 6.797 entri dari total 119.390 entri.
 
-### **B. Problem Question**
-
-1. Apakah terdapat pola dalam preferensi pelanggan terhadap tipe hotel tertentu? Hotel mana yang lebih sering dipilih oleh pelanggan, apakah Resort Hotel atau City Hotel?
-2. Pada bulan dan tanggal berapa puncak pemesanan hotel biasanya terjadi? Apakah terdapat musim tertentu yang memengaruhi tingkat pemesanan hotel?
-3. Paket makanan apa yang paling sering dipesan oleh pelanggan, dan bagaimana hotel dapat mengoptimalkan layanan berdasarkan preferensi tersebut?
-4. Jenis pemesanan apa yang paling sering digunakan oleh pelanggan (Contract, Group, Transient, atau Transient-party), dan bagaimana distribusinya memengaruhi manajemen reservasi hotel?
-
-### **C. Wawasan yang strategis kepada seorang manajer hotel**
+### **Wawasan yang strategis kepada seorang manajer hotel**
 
 Dapat mengembangkan layanan untuk semua pelanggan.
 Merancang Strategi pemasaran yang lebih baik.
 Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 
-### **D. Manfaat Analisis bagi Konsumen**
+### **Manfaat Analisis bagi Konsumen**
 
 1. Meningkatkan kualitas layanan hotel, sehingga pelanggan akan merasa lebih puas dan nyaman.
 2. Membangun hubungan yang lebih baik dengan pelanggan untuk menciptakan pengalaman yang positif dan mendorong pelanggan untuk tetap memilih hotel tersebut di masa mendatang.
@@ -42,9 +52,7 @@ Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 ### **B. Metodologi yang Digunakan**
 1. Menangani Missing Value
 2. Exploratory Data Analysis (EDA) yaitu mengidentifikasi pola dan tren untuk memahami perilaku pelanggan.
-3. Analisis Waktu yaitu menggunakan variabel arrival_date_month dan arrival_date_day_of_month untuk menentukan bulan dan tanggal dengan jumlah pemesanan terbanyak.
-4. Menyusun wawasan dari analisis yang dilakukan.
-
+3. Analisis Deskriptif untuk mengidentifikasi tren berdasarkan waktu, jenis pemesanan, dan preferensi pelanggan.
 
 ## **3. Hasil Analysis Problem Question**
 
