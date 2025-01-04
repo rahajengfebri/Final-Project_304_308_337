@@ -101,7 +101,7 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 2. Merancang Strategi pemasaran yang lebih baik.
 3. Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 
-### **Manfaat Analisis bagi Konsumen**
+#### **Manfaat Analisis bagi Konsumen**
 
 1. Meningkatkan kualitas layanan hotel, sehingga pelanggan akan merasa lebih puas dan nyaman.
 2. Membangun hubungan yang lebih baik dengan pelanggan untuk menciptakan pengalaman yang positif dan mendorong pelanggan untuk tetap memilih hotel tersebut di masa mendatang.
