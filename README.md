@@ -21,7 +21,7 @@
 ![image](https://github.com/user-attachments/assets/4e3306c2-6618-4be2-b528-f819aa16932f)
 
 ## 1. 📚 **Pendahuluan**  
-### 1.1. 📝 **Latar Belakang Masalah**
+### 1.1. 🌟 **Latar Belakang Masalah**
 Industri perhotelan terus berkembang dengan cepat, dan pemahaman yang mendalam mengenai perilaku pelanggan sangat penting dalam merancang strategi yang tepat. Laporan ini menyajikan analisis data pemesanan hotel untuk mengidentifikasi pola yang dapat membantu hotel dalam meningkatkan operasional dan layanan mereka.
 
 Pernyataan masalah utama yang dibahas meliputi:
@@ -40,7 +40,7 @@ Menganalisis jenis pemesanan yang paling sering digunakan oleh pelanggan (Contra
 
 Dengan analisis mendalam terhadap data ini, laporan ini bertujuan untuk memberikan wawasan yang membantu hotel dalam merancang strategi pemasaran, mengelola sumber daya secara efisien, serta meningkatkan kepuasan pelanggan.
 
-### 1.2. 📊 **Data dan Metodologi yang Digunakan**
+### 1.2. 🌟 **Data dan Metodologi yang Digunakan**
 #### **Dataset**
 
 Dataset ini berisi informasi tentang reservasi hotel dengan total 119.390 entri dan 32 kolom yang mencakup berbagai aspek terkait pemesanan. 
@@ -82,7 +82,7 @@ Dataset ini berisi informasi tentang reservasi hotel dengan total 119.390 entri 
 
 Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah anak-anak (children), agen pemesanan (agent), dan perusahaan (company). Terutama, data perusahaan hanya terisi pada sekitar 6.797 entri dari total 119.390 entri.
 
-### 1.3 ⚙️ **Teknik Analisis yang Diusulkan**
+### 1.3 🌟 **Teknik Analisis yang Diusulkan**
 #### **A. Variabel-variabel berikut untuk dianalisis**
 1. Hotel (Jenis hotel yang dipesan).
 2. Arrival Date (Month dan Day of Month).
@@ -118,11 +118,11 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 
 ## 3. 🌟 **Data Preparation**
 
-### 3.1 📂 **Sumber Dataset**
+### 3.1 🌟 **Sumber Dataset**
 Data yang digunakan dalam analisis ini berasal dari kumpulan data permintaan pemesanan hotel yang dikumpulkan oleh Antonio, Almeida, dan Nunes pada tahun 2019. Berikut link dataset yang digunakan [(Dataset)](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/readme.md)
 
 
-### 3.2 🗃️ **Detail Dataset**
+### 3.2 🌟 **Detail Dataset**
 
 #### Tujuan dataset
 Tujuan awal data yaitu untuk menyediakan informasi tentang perilaku pelanggan dalam pemesanan hotel, termasuk pola pemesanan, jenis layanan yang dipilih, serta faktor-faktor yang memengaruhi keputusan pemesanan.
@@ -151,8 +151,8 @@ Berikut adalah strategi imputasi untuk menangani missing value dalam dataset:
 | `agent`       | Missing value diimputasikan dengan kategori **"Direct Booking"**, karena pemesanan dilakukan tanpa agen.        |
 | `company`     | Tidak diimputasikan, karena sebagian besar (56,58%) nilai hilang. Kolom ini dihapus karena tidak relevan dengan analisis. |  
 
-## 4. **Eksplorasi dan analisa data**
-### 4.1. **Pemesanan dan Pembatalan Hotel Berdasarkan Musim**
+## 4. 🌟 **Eksplorasi dan analisa data**
+### 4.1. 🌟 **Pemesanan dan Pembatalan Hotel Berdasarkan Musim**
 
 Untuk mempermudah analisis musiman, ditambahkan kolom **'season'** yang mengelompokkan bulan kedatangan tamu (**'arrival_date_month'**) ke dalam empat kategori musim:
 
@@ -178,7 +178,8 @@ Dengan pengelompokan ini, manajemen hotel dapat menganalisis tren musiman dan me
 Apakah penjelasan ini sudah cukup singkat?
 ![download](https://github.com/user-attachments/assets/097f178b-e68a-4bda-828d-a908a079c85e)
 Dari hasil visualisasi diatas, dapat dilihat bahwa pemesanan paling banyak terjadi pada musim summer, khususnya pada bulan Juni, Juli, dan Agustus. Ini menunjukkan bahwa banyak tamu yang memilih untuk menginap di hotel selama liburan musim panas, yang biasanya bertepatan dengan liburan sekolah atau waktu-waktu liburan yang lebih panjang.
-### 4.2 Pembatalan Pemesanan City Hotel dan Resort Hotel
+
+### 4.2 🌟 **Pembatalan Pemesanan City Hotel dan Resort Hotel**
 Dalam analisis ini, kami membandingkan tingkat pembatalan pemesanan berdasarkan dua tipe hotel: City Hotel dan Resort Hotel. Tingkat pembatalan dihitung sebagai persentase dari total pemesanan yang dibatalkan. Perbandingan ini memungkinkan untuk memahami perbedaan tingkat pembatalan antara kedua tipe hotel, yang dapat membantu dalam perencanaan sumber daya dan strategi pemasaran.
 
 ---
@@ -194,7 +195,7 @@ Hasil analisis ini memberikan wawasan mengenai perbedaan tingkat pembatalan anta
 ![download (1)](https://github.com/user-attachments/assets/4bbad8a4-2bfb-471a-af6f-84a88f3d8458)
 
 Hasil analisis menunjukkan bahwa **City Hotel** memiliki tingkat pembatalan lebih tinggi, mungkin karena kebijakan pembatalan lebih longgar atau ketidakpastian perjalanan bisnis. **Resort Hotel** memiliki tingkat pembatalan lebih rendah, meski masih ada potensi pembatalan yang dipengaruhi faktor cuaca atau perubahan rencana liburan.
-### 4.3 Lama menginap pelanggan pada City Hotel dan Resort Hotel
+### 4.3 🌟 **Lama menginap pelanggan pada City Hotel dan Resort Hotel**
 
 Dalam analisis ini, kami membandingkan rata-rata lama menginap tamu berdasarkan dua tipe hotel: City Hotel dan Resort Hotel. Lama menginap dihitung dengan menjumlahkan **`stays_in_weekend_nights`** dan **`stays_in_week_nights`**. Perbandingan ini memberikan wawasan mengenai kebiasaan tamu dalam memilih lama menginap, yang berguna untuk perencanaan pengelolaan sumber daya dan strategi pemasaran.
 
@@ -214,7 +215,7 @@ Hasil analisis ini memberikan gambaran tentang perbedaan kebiasaan lama menginap
 ![download (3)](https://github.com/user-attachments/assets/f6fe3734-dafd-4d87-9057-bd4c74ef272e)
 Berdasarkan hasil visualisasi, rata-rata lama menginap di **Resort Hotel** lebih lama dibandingkan **City Hotel**, karena **Resort Hotel** menawarkan fasilitas untuk liburan panjang, sementara **City Hotel** lebih sering digunakan untuk perjalanan bisnis atau wisata singkat.
 
-### 4.4 Type Costumer Berdasarkan Lama Pemesanan
+### 4.4 🌟 **Type Costumer Berdasarkan Lama Pemesanan**
 Dalam analisis ini, kami membandingkan **Lead Time Category** berdasarkan **customer type**, termasuk kategori baru **transient-party**. **Lead Time** dibagi menjadi lima rentang waktu yang lebih detail:  
 
 1. **0-7 Days**: Pemesanan sangat mendekati tanggal kedatangan.  
