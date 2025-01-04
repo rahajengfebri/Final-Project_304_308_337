@@ -103,6 +103,35 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 ### 3.1 Sumber Dataset
 Data yang digunakan dalam analisis ini berasal dari kumpulan data permintaan pemesanan hotel yang dikumpulkan oleh Antonio, Almeida, dan Nunes pada tahun 2019. Berikut link dataset yang digunakan [(Dataset) ](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/readme.md)
 
+#### Jumlah Dataset
+Jumlah dataset 119.390 entri dan 32 variable
+
+#### Kekhasan Dataset
+- Dataset ini mencerminkan data riil yang dikumpulkan dari dua tipe hotel (resort hotel dan city hotel).
+- Mencakup pola pemesanan, pembatalan, preferensi pelanggan, serta detail layanan yang dipesan.
+- Karena data ini berasal dari hotel nyata, semua elemen data yang berkaitan dengan identitas hotel atau pelanggan telah dihapus untuk menjaga kerahasiaan.
+
+#### Missing Value pada data
+Berikut adalah penjelasan dalam bentuk tabel:  
+
+| Kolom     | Penyebab Missing Value                                          |
+|---------------|----------------------------------------------------------------------|
+| `children`    | memiliki missing value terjadi karena tidak semua pelanggan yang memesan hotel membawa anak atau mungkin pelanggan tersebut tidak memiliki anak.                      |
+| `country`     | memiliki missing value terjadi karena sistem tidak mewajibkan pelanggan untuk mengisi informasi negara saat melakukan pemesanan, sehingga beberapa data tidak tercatat.             |
+| `agent`       | memiliki missing value terjadi karena beberapa pemesanan dilakukan tanpa melalui agen perjalanan, seperti pemesanan langsung ke hotel melalui website. |
+| `company`     | memiliki missing value terjadi karena beberapa pemesanan dilakukan oleh individu, bukan melalui perusahaan atau institusi yang bertanggung jawab atas pembayaran pemesanan. |  
+
+#### Strategi Imputasi
+Berikut adalah strategi imputasi untuk menangani missing value dalam dataset:  
+
+| Kolom     | Strategi Imputasi                                                                                        |
+|---------------|----------------------------------------------------------------------------------------------------------------|
+| `children`    | Missing value diimputasikan dengan nilai **0**, karena diasumsikan tidak ada anak yang ikut dalam pemesanan.    |
+| `country`     | Missing value diimputasikan dengan kategori **"Unknown"**, karena tidak semua pelanggan mengisi negara asal.    |
+| `agent`       | Missing value diimputasikan dengan kategori **"Direct Booking"**, karena pemesanan dilakukan tanpa agen.        |
+| `company`     | Tidak diimputasikan, karena sebagian besar (56,58%) nilai hilang. Kolom ini dihapus karena tidak relevan dengan analisis. |  
+
+
 #### Tujuan dataset
 Tujuan awal data yaitu untuk menyediakan informasi tentang perilaku pelanggan dalam pemesanan hotel, termasuk pola pemesanan, jenis layanan yang dipilih, serta faktor-faktor yang memengaruhi keputusan pemesanan.
 
