@@ -182,13 +182,14 @@ Dalam analisis ini, kami membandingkan tingkat pembatalan pemesanan berdasarkan 
 Rumus untuk menghitung tingkat pembatalan (cancellation_rate) adalah sebagai berikut:
 
 $$
-\text{cancellation_rate} = \left( \frac{\text{df['is_canceled'].transform('mean')}}{\text{df.groupby('hotel')['is_canceled'].transform('mean')}} \right) \times 100
+\text{cancellation\_rate} = \left( \frac{\text{df['is\_canceled'].transform('mean')}}{\text{df.groupby('hotel')['is\_canceled'].transform('mean')}} \right) \times 100
 $$
 
 Penjelasan:
 - **df['is_canceled'].transform('mean')**: Menghitung rata-rata tingkat pembatalan untuk seluruh data.
 - **df.groupby('hotel')['is_canceled'].transform('mean')**: Menghitung rata-rata tingkat pembatalan per tipe hotel.
 - **cancellation_rate**: Menghitung tingkat pembatalan sebagai persentase per hotel.
+
 ---
 - **Cara Kerja:**
 
