@@ -2,8 +2,8 @@
 
 ## Daftar Isi
 1. [Pendahuluan](#1--pendahuluan)
-   1. [Latar Belakang Masalah](#latar-belakang-masalah)
-   2. [Data dan Metodologi yang Digunakan](#data-dan-metodologi-yang-digunakan)
+   1. [Latar Belakang Masalah](11--latar-belakang-masalah)
+   2. [Data dan Metodologi yang Digunakan](12--data-dan-metodologi-yang-digunakan)
       
 ## Hotel Booking 
 ![image](https://github.com/user-attachments/assets/4e3306c2-6618-4be2-b528-f819aa16932f)
