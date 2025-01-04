@@ -175,10 +175,11 @@ Dengan pengelompokan ini, manajemen hotel dapat menganalisis tren musiman dan me
 Apakah penjelasan ini sudah cukup singkat?
 ![download](https://github.com/user-attachments/assets/097f178b-e68a-4bda-828d-a908a079c85e)
 Dari hasil visualisasi diatas, dapat dilihat bahwa pemesanan paling banyak terjadi pada musim summer, khususnya pada bulan Juni, Juli, dan Agustus. Ini menunjukkan bahwa banyak tamu yang memilih untuk menginap di hotel selama liburan musim panas, yang biasanya bertepatan dengan liburan sekolah atau waktu-waktu liburan yang lebih panjang.
-### 4.2 
+### 4.2 Pembatalan Pemesanan City Hotel dan Resort Hotel
 Dalam analisis ini, kami membandingkan tingkat pembatalan pemesanan berdasarkan dua tipe hotel: City Hotel dan Resort Hotel. Tingkat pembatalan dihitung sebagai persentase dari total pemesanan yang dibatalkan. Perbandingan ini memungkinkan untuk memahami perbedaan tingkat pembatalan antara kedua tipe hotel, yang dapat membantu dalam perencanaan sumber daya dan strategi pemasaran.
 
-**Cara Kerja:**
+---
+- **Cara Kerja:**
 
 1. **Menghitung Tingkat Pembatalan**: Kolom **'cancellation_rate'** dihitung dengan mengelompokkan data berdasarkan **'hotel'** dan menghitung rata-rata kolom **'is_canceled'** untuk setiap tipe hotel, lalu mengalikannya dengan 100 untuk mendapatkan persentase pembatalan.
 2. **Visualisasi**: Menggunakan **sns.barplot()** untuk membuat grafik batang yang menampilkan tingkat pembatalan berdasarkan tipe hotel, dengan warna yang berbeda untuk setiap tipe.
@@ -187,6 +188,7 @@ Dalam analisis ini, kami membandingkan tingkat pembatalan pemesanan berdasarkan 
 
 Hasil analisis ini memberikan wawasan mengenai perbedaan tingkat pembatalan antara tipe hotel, yang dapat membantu manajemen hotel untuk merencanakan strategi pengelolaan lebih baik.
 
+![download (1)](https://github.com/user-attachments/assets/4bbad8a4-2bfb-471a-af6f-84a88f3d8458)
 
 
 ## 4.3
