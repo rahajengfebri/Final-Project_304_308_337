@@ -104,7 +104,7 @@ Library yang digunakan saat pengolahan data.
 | Library/Package         | Fungsi                                                                                  |
 |-------------------------------|---------------------------------------------------------------------------------------------|
 | `from google.colab import drive`          | Menghubungkan Google Drive ke Google Colab.                                                 |
-| `pimport pandas as pd`                      | Manipulasi dan analisis data dalam bentuk tabel (DataFrame).                                 |
+| `import pandas as pd`                      | Manipulasi dan analisis data dalam bentuk tabel (DataFrame).                                 |
 | `import matplotlib.pyplot as plt`           | Membuat visualisasi data seperti grafik batang, garis, dan lainnya.                         |
 | `import seaborn as sns`                     | Membuat visualisasi statistik dengan tampilan estetis.                                      |
 | `import warnings`                    | Menangani atau menyembunyikan peringatan yang tidak relevan.                                |
