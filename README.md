@@ -146,8 +146,35 @@ Berikut adalah strategi imputasi untuk menangani missing value dalam dataset:
 | `agent`       | Missing value diimputasikan dengan kategori **"Direct Booking"**, karena pemesanan dilakukan tanpa agen.        |
 | `company`     | Tidak diimputasikan, karena sebagian besar (56,58%) nilai hilang. Kolom ini dihapus karena tidak relevan dengan analisis. |  
 
-## ** Analysys Pernyataan Masalah**
-# Temuan Informasi Baru 
+## 4. Eksplorasi dan analisa data
+### ** Analysys Pernyataan Masalah**
+#### 4.1. 
+
+Untuk mempermudah analisis musiman, ditambahkan kolom **'season'** yang mengelompokkan bulan kedatangan tamu (**'arrival_date_month'**) ke dalam empat kategori musim:
+
+1. **Musim Panas (Summer)**: Juni, Juli, Agustus
+2. **Musim Gugur (Fall)**: September, Oktober, November
+3. **Musim Dingin (Winter)**: Desember, Januari, Februari
+4. **Musim Semi (Spring)**: Maret, April, Mei
+
+Dengan pengelompokan ini, manajemen hotel dapat menganalisis tren musiman dan membuat keputusan berdasarkan pola permintaan dan pembatalan pada setiap musim. Ini membantu dalam persiapan operasional, seperti penambahan staf atau promosi di musim tertentu.
+
+--- 
+
+Apakah penjelasan ini sudah sesuai?
+
+- Cara Kerja
+1. **Fungsi `categorize_season(month)`**: Mengelompokkan bulan kedatangan tamu ke dalam musim (Summer, Fall, Winter, Spring).
+
+2. **Menambahkan Kolom**: Menambah kolom **'season'** untuk musim dan **'cancellation_status'** untuk status pembatalan berdasarkan **'is_canceled'**.
+
+3. **Pengelompokan & Hitung**: Mengelompokkan data berdasarkan musim dan status pembatalan, lalu menghitung jumlah pemesanan.
+
+4. **Visualisasi**: Membuat barplot untuk visualisasi jumlah pemesanan per musim dengan status pembatalan.
+
+5. **Tampilkan Data**: Menampilkan tabel analisis jumlah pemesanan berdasarkan musim dan status pembatalan.
+
+Apakah penjelasan ini sudah cukup singkat?
 ![download](https://github.com/user-attachments/assets/097f178b-e68a-4bda-828d-a908a079c85e)
 
 Dari hasil visualisasi diatas, dapat dilihat bahwa pemesanan paling banyak terjadi pada musim summer, khususnya pada bulan Juni, Juli, dan Agustus. Ini menunjukkan bahwa banyak tamu yang memilih untuk menginap di hotel selama liburan musim panas, yang biasanya bertepatan dengan liburan sekolah atau waktu-waktu liburan yang lebih panjang.
