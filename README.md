@@ -31,11 +31,11 @@ Selain itu, dataset ini mencakup informasi seperti paket makanan yang dipesan (m
 
 Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah anak-anak (children), agen pemesanan (agent), dan perusahaan (company). Terutama, data perusahaan hanya terisi pada sekitar 6.797 entri dari total 119.390 entri.
 
+## 1.4 Manfaat Hasil Analisis
 ### **Wawasan yang strategis kepada seorang manajer hotel**
-
-Dapat mengembangkan layanan untuk semua pelanggan.
-Merancang Strategi pemasaran yang lebih baik.
-Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
+1. Dapat mengembangkan layanan untuk semua pelanggan.
+2. Merancang Strategi pemasaran yang lebih baik.
+3. Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
 
 ### **Manfaat Analisis bagi Konsumen**
 
