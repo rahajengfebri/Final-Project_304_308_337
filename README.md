@@ -142,7 +142,7 @@ Berikut adalah strategi imputasi untuk menangani missing value dalam dataset:
 | `agent`       | Missing value diimputasikan dengan kategori **"Direct Booking"**, karena pemesanan dilakukan tanpa agen.        |
 | `company`     | Tidak diimputasikan, karena sebagian besar (56,58%) nilai hilang. Kolom ini dihapus karena tidak relevan dengan analisis. |  
 
-## **3. Hasil Analysis Problem Question**
+## ** Analysys Pernyataan Masalah**
 
 ### A. Apakah terdapat pola dalam preferensi pelanggan terhadap tipe hotel tertentu? Hotel mana yang lebih sering dipilih oleh pelanggan, apakah Resort Hotel atau City Hotel?
 
