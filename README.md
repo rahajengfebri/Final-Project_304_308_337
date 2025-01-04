@@ -6,6 +6,9 @@
    2. [Data dan Metodologi yang Digunakan](#12--data-dan-metodologi-yang-digunakan)
    3. [Teknik Analisis yang Diusulkan](#13-teknik-analisis-yang-diusulkan)
    4. [Manfaat Hasil Analisis](#14-manfaat-hasil-analisis)
+3. [Data Preparation](#3--data-preparation)
+   3.1. [Sumber Dataset](#31-sumber-dataset) 
+   3.2. [Detail Dataset](#32-detail-dataset) 
       
 Manfaat Hasil Analisis
 
@@ -75,7 +78,7 @@ Dataset ini berisi informasi tentang reservasi hotel dengan total 119.390 entri 
 
 Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah anak-anak (children), agen pemesanan (agent), dan perusahaan (company). Terutama, data perusahaan hanya terisi pada sekitar 6.797 entri dari total 119.390 entri.
 
-### 1.3 Teknik Analisis yang Diusulkan
+### 1.3 ⚙️ **Teknik Analisis yang Diusulkan**
 #### **A. Variabel-variabel berikut untuk dianalisis**
 1. Hotel (Jenis hotel yang dipesan).
 2. Arrival Date (Month dan Day of Month).
@@ -88,7 +91,7 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 2. Exploratory Data Analysis (EDA) yaitu mengidentifikasi pola dan tren untuk memahami perilaku pelanggan.
 3. Analisis Deskriptif untuk mengidentifikasi tren berdasarkan waktu, jenis pemesanan, dan preferensi pelanggan.
 
-### 1.4 Manfaat Hasil Analisis
+### 1.4 🌟 **Manfaat Hasil Analisis**
 #### **Wawasan yang strategis kepada seorang manajer hotel**
 1. Dapat mengembangkan layanan untuk semua pelanggan.
 2. Merancang Strategi pemasaran yang lebih baik.
@@ -99,18 +102,20 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 1. Meningkatkan kualitas layanan hotel, sehingga pelanggan akan merasa lebih puas dan nyaman.
 2. Membangun hubungan yang lebih baik dengan pelanggan untuk menciptakan pengalaman yang positif dan mendorong pelanggan untuk tetap memilih hotel tersebut di masa mendatang.
 
-## 3 Data Preparation
-### 3.1 Sumber Dataset
-Data yang digunakan dalam analisis ini berasal dari kumpulan data permintaan pemesanan hotel yang dikumpulkan oleh Antonio, Almeida, dan Nunes pada tahun 2019. Berikut link dataset yang digunakan [(Dataset) ](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/readme.md)
+## 3. 🌟 **Data Preparation**
 
+### 3.1 📂 **Sumber Dataset**
+Data yang digunakan dalam analisis ini berasal dari kumpulan data permintaan pemesanan hotel yang dikumpulkan oleh Antonio, Almeida, dan Nunes pada tahun 2019. Berikut link dataset yang digunakan [(Dataset) ](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/readme.md)
+### 3.2 🗃️ **Detail Dataset**
+
+#### Tujuan dataset
+Tujuan awal data yaitu untuk menyediakan informasi tentang perilaku pelanggan dalam pemesanan hotel, termasuk pola pemesanan, jenis layanan yang dipilih, serta faktor-faktor yang memengaruhi keputusan pemesanan.
 #### Jumlah Dataset
 Jumlah dataset 119.390 entri dan 32 variable
-
 #### Kekhasan Dataset
 - Dataset ini mencerminkan data riil yang dikumpulkan dari dua tipe hotel (resort hotel dan city hotel).
 - Mencakup pola pemesanan, pembatalan, preferensi pelanggan, serta detail layanan yang dipesan.
 - Karena data ini berasal dari hotel nyata, semua elemen data yang berkaitan dengan identitas hotel atau pelanggan telah dihapus untuk menjaga kerahasiaan.
-
 #### Missing Value pada data
 Berikut adalah penjelasan dalam bentuk tabel:  
 
@@ -120,7 +125,6 @@ Berikut adalah penjelasan dalam bentuk tabel:
 | `country`     | memiliki missing value terjadi karena sistem tidak mewajibkan pelanggan untuk mengisi informasi negara saat melakukan pemesanan, sehingga beberapa data tidak tercatat.             |
 | `agent`       | memiliki missing value terjadi karena beberapa pemesanan dilakukan tanpa melalui agen perjalanan, seperti pemesanan langsung ke hotel melalui website. |
 | `company`     | memiliki missing value terjadi karena beberapa pemesanan dilakukan oleh individu, bukan melalui perusahaan atau institusi yang bertanggung jawab atas pembayaran pemesanan. |  
-
 #### Strategi Imputasi
 Berikut adalah strategi imputasi untuk menangani missing value dalam dataset:  
 
@@ -130,10 +134,6 @@ Berikut adalah strategi imputasi untuk menangani missing value dalam dataset:
 | `country`     | Missing value diimputasikan dengan kategori **"Unknown"**, karena tidak semua pelanggan mengisi negara asal.    |
 | `agent`       | Missing value diimputasikan dengan kategori **"Direct Booking"**, karena pemesanan dilakukan tanpa agen.        |
 | `company`     | Tidak diimputasikan, karena sebagian besar (56,58%) nilai hilang. Kolom ini dihapus karena tidak relevan dengan analisis. |  
-
-
-#### Tujuan dataset
-Tujuan awal data yaitu untuk menyediakan informasi tentang perilaku pelanggan dalam pemesanan hotel, termasuk pola pemesanan, jenis layanan yang dipilih, serta faktor-faktor yang memengaruhi keputusan pemesanan.
 
 ## **3. Hasil Analysis Problem Question**
 
