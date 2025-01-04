@@ -89,6 +89,9 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 1. Meningkatkan kualitas layanan hotel, sehingga pelanggan akan merasa lebih puas dan nyaman.
 2. Membangun hubungan yang lebih baik dengan pelanggan untuk menciptakan pengalaman yang positif dan mendorong pelanggan untuk tetap memilih hotel tersebut di masa mendatang.
 
+### 1.5 Sumber Dataset
+Data yang digunakan dalam analisis ini berasal dari kumpulan data permintaan pemesanan hotel yang dikumpulkan oleh Antonio, Almeida, dan Nunes pada tahun 2019. Berikut link dataset yang digunakan [(Dataset) ](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/readme.md)
+
 ## **3. Hasil Analysis Problem Question**
 
 ### A. Apakah terdapat pola dalam preferensi pelanggan terhadap tipe hotel tertentu? Hotel mana yang lebih sering dipilih oleh pelanggan, apakah Resort Hotel atau City Hotel?
