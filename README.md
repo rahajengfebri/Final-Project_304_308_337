@@ -8,27 +8,17 @@
 ## Hotel Booking 
 ![image](https://github.com/user-attachments/assets/4e3306c2-6618-4be2-b528-f819aa16932f)
 
-## **1. Pendahuluan**
-### 1.1 Latar Belakang Masalah
+## 1. 📚 **Pendahuluan**  
 Industri perhotelan terus berkembang dengan cepat, dan pemahaman yang mendalam mengenai perilaku pelanggan sangat penting dalam merancang strategi yang tepat. Laporan ini menyajikan analisis data pemesanan hotel untuk mengidentifikasi pola yang dapat membantu hotel dalam meningkatkan operasional dan layanan mereka.
 
+### 1.1. 📝 **Latar Belakang Masalah**  
 Pernyataan masalah utama yang dibahas meliputi:
+- **Pola Preferensi Pelanggan**: Menganalisis preferensi pelanggan dalam memilih tipe hotel (Resort atau City Hotel) untuk membantu hotel menyusun strategi pemasaran yang lebih tepat dan terarah.
+- **Puncak Pemesanan dan Pengaruh Musim pada Pemesanan**: Mengidentifikasi waktu puncak pemesanan berdasarkan bulan dan tanggal, serta bagaimana musim memengaruhi tingkat pemesanan.
+- **Paket Makanan yang Paling Sering Dipesan**: Mengidentifikasi paket makanan yang paling sering dipesan oleh pelanggan.
+- **Jenis Pemesanan yang Paling Sering Digunakan**: Menganalisis jenis pemesanan yang paling sering digunakan oleh pelanggan (Contract, Group, Transient, atau Transient-party).
 
-1. Pola Preferensi Pelanggan
-Menganalisis preferensi pelanggan dalam memilih tipe hotel (Resort atau City Hotel) untuk membantu hotel menyusun strategi pemasaran yang lebih tepat dan terarah.
-
-2. Puncak Pemesanan dan Pengaruh Musim pada Pemesanan
-Mengidentifikasi waktu puncak pemesanan berdasarkan bulan dan tanggal, serta bagaimana musim memengaruhi tingkat pemesanan. Analisis ini membantu hotel dalam merencanakan kapasitas dan strategi promosi musiman secara lebih efisien.
-
-3. Paket Makanan yang Paling Sering Dipesan
-Mengidentifikasi paket makanan yang paling sering dipesan oleh pelanggan untuk memungkinkan hotel dalam mengoptimalkan penawaran makanan dan meningkatkan pengalaman pelanggan.
-
-4. Jenis Pemesanan yang Paling Sering Digunakan
-Menganalisis jenis pemesanan yang paling sering digunakan oleh pelanggan (Contract, Group, Transient, atau Transient-party), serta bagaimana hal ini mempengaruhi pengelolaan reservasi dan operasional hotel.
-
-Dengan analisis mendalam terhadap data ini, laporan ini bertujuan untuk memberikan wawasan yang membantu hotel dalam merancang strategi pemasaran, mengelola sumber daya secara efisien, serta meningkatkan kepuasan pelanggan.
-
-### 1.2 Data dan Metodologi yang Digunakan
+### 1.2. 📊 **Data dan Metodologi yang Digunakan**
 #### **Dataset**
 
 Dataset ini berisi informasi tentang reservasi hotel dengan total 119.390 entri dan 32 kolom yang mencakup berbagai aspek terkait pemesanan. 
