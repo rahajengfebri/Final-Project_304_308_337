@@ -191,39 +191,30 @@ Hasil analisis ini memberikan wawasan mengenai perbedaan tingkat pembatalan anta
 
 ![download (1)](https://github.com/user-attachments/assets/4bbad8a4-2bfb-471a-af6f-84a88f3d8458)
 
+### 4.3
+### 4.4 Type Costumer Berdasarkan Lama Pemesanan
+Dalam analisis ini, kami membandingkan **Lead Time Category** berdasarkan **customer type**, termasuk kategori baru **transient-party**. **Lead Time** dibagi menjadi lima rentang waktu yang lebih detail:  
 
-## 4.3
+1. **0-7 Days**: Pemesanan sangat mendekati tanggal kedatangan.  
+2. **8-30 Days**: Pemesanan dalam waktu 1-4 minggu sebelum kedatangan.  
+3. **31-100 Days**: Pemesanan dalam waktu 1-3 bulan sebelum kedatangan.  
+4. **101-365 Days**: Pemesanan dalam waktu 3 bulan hingga 1 tahun sebelum kedatangan.  
+5. **More than 1 Year**: Pemesanan lebih dari 1 tahun sebelumnya.  
+
+Perbandingan ini memungkinkan untuk memahami pola pemesanan jangka pendek dan panjang dari berbagai jenis pelanggan (**transient**, **contract**, **group**, dan **transient-party**). Wawasan ini membantu dalam mengidentifikasi kebutuhan pelanggan pada berbagai periode waktu untuk menyusun strategi pemasaran atau pengelolaan sumber daya yang lebih efektif.
+
+---
+
+**Cara Kerja:**  
+1. Kolom **`lead_time`** dibagi ke dalam kategori menggunakan fungsi **`pd.cut`**, dengan rentang kategori yang telah ditentukan. Kategori disimpan dalam kolom baru bernama **`Lead_Time_Category`**.  
+2. Data kemudian dikelompokkan berdasarkan **`customer_type`** dan **`Lead_Time_Category`** menggunakan **`groupby`** dan dihitung jumlah pemesanan per kelompok.  
+3. Hasil pengelompokan dipresentasikan menggunakan grafik batang untuk menunjukkan distribusi jumlah pemesanan per kategori lead time pada masing-masing jenis pelanggan.  
+4. Grafik diberi label dan warna untuk memudahkan interpretasi, serta menampilkan bagaimana setiap jenis pelanggan berperilaku terhadap waktu pemesanan.
+
+Hasil analisis ini memberikan wawasan penting bagi pengelola hotel dalam memahami preferensi pelanggan dan pola pemesanan mereka untuk meningkatkan pengalaman pelanggan dan optimasi bisnis.
 ![download (7)](https://github.com/user-attachments/assets/c8118450-2453-439d-9525-a567af9c794b)
 
-Berdasarkan grafik yang disajikan, hubungan antara lead time (jumlah hari antara tanggal pemesanan masuk ke sistem dan tanggal kedatangan) dengan customer type dapat dianalisis sebagai berikut:
-
-1. Customer Type "Contract"
-
-Jumlah pemesanan tercatat sangat kecil untuk semua kategori lead time.
-Hal ini menunjukkan bahwa pemesanan tipe kontrak kemungkinan besar tidak bergantung pada lead time, karena biasanya dilakukan dalam skema perjanjian jangka panjang antara pihak hotel dan perusahaan atau organisasi tertentu.
-
-2. Customer Type "Group"
-
-Pemesanan tipe ini juga sangat sedikit di semua kategori lead time.
-Fenomena ini mengindikasikan bahwa tipe grup tidak mendominasi dalam dataset yang dianalisis. Pemesanan grup cenderung dilakukan untuk keperluan acara tertentu yang memiliki pola lead time yang berbeda.
-
-3. Customer Type "Transient"
-
-Jenis pelanggan ini mendominasi jumlah pemesanan, terutama pada kategori lead time:
-31-100 Hari dan 101-365 Hari, dengan jumlah pemesanan tertinggi.
-Pemesanan dalam kategori 0-7 Hari juga signifikan, mengindikasikan adanya kebutuhan mendadak atau pemesanan last-minute.
-Pola ini menunjukkan bahwa pelanggan transient cenderung memesan jauh hari, namun sebagian kecil juga memesan mendekati tanggal kedatangan.
-
-4. Customer Type "Transient-Party"
-
-Pola pada kategori ini mirip dengan "Transient" tetapi dengan jumlah yang lebih kecil.
-Kategori lead time yang mendominasi tetap berada di rentang 31-100 Hari dan 101-365 Hari, dengan pemesanan dalam kategori lead time lebih pendek seperti 0-7 Hari yang lebih jarang.
-
-**Kesimpulan**
-
-- Pelanggan Transient merupakan kelompok dominan dalam data ini, dengan lead time yang bervariasi tetapi cenderung memesan jauh hari (31-365 hari).
-- Pelanggan dengan tipe Contract dan Group memiliki jumlah pemesanan yang jauh lebih kecil, sehingga tidak terlalu terpengaruh oleh faktor lead time.
-- Lead time menjadi indikator penting dalam memprediksi kebutuhan kamar hotel, khususnya untuk pelanggan transient, sehingga dapat digunakan untuk menyusun strategi pemasaran yang lebih efektif.
+Berdasarkan analisis hubungan antara lead time dan customer type, pelanggan dengan tipe **Transient** mendominasi jumlah pemesanan, terutama pada kategori lead time 31-100 hari dan 101-365 hari, namun juga menunjukkan pemesanan mendadak (0-7 hari). Tipe **Contract** dan **Group** memiliki jumlah pemesanan yang sangat kecil, menunjukkan bahwa pemesanan pada kedua tipe ini tidak bergantung pada lead time dan lebih bersifat jangka panjang atau terkait dengan acara tertentu. Sementara itu, tipe **Transient-Party** menunjukkan pola yang mirip dengan **Transient**, tetapi dengan jumlah pemesanan yang lebih kecil. Kesimpulannya, lead time menjadi indikator penting dalam memprediksi kebutuhan kamar hotel, terutama untuk pelanggan **Transient**, yang dapat membantu dalam merencanakan strategi pemasaran dan pengelolaan sumber daya hotel yang lebih efektif.
 
 
 # **Kesimpulan secara Menyeluruh** :
