@@ -109,7 +109,6 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 | [Matplotlib](https://matplotlib.org/) | Membuat visualisasi data seperti grafik batang, garis, dan lainnya.   |
 | [Seaborn](https://seaborn.pydata.org/) | Membuat visualisasi statistik dengan tampilan estetis.                |
 | [Warnings](https://docs.python.org/3/library/warnings.html) | Menangani atau menyembunyikan peringatan yang tidak relevan.          |
-                             |
 ## 3. 🌟 **Data Preparation**
 
 ### 3.1 📂 **Sumber Dataset**
