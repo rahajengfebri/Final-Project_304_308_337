@@ -31,8 +31,21 @@ Selain itu, dataset ini mencakup informasi seperti paket makanan yang dipesan (m
 
 Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah anak-anak (children), agen pemesanan (agent), dan perusahaan (company). Terutama, data perusahaan hanya terisi pada sekitar 6.797 entri dari total 119.390 entri.
 
-## 1.4 Manfaat Hasil Analisis
-### **Wawasan yang strategis kepada seorang manajer hotel**
+### 1.3 Teknik Analisis yang Diusulkan
+#### **A. Variabel-variabel berikut untuk dianalisis**
+1. Hotel (Jenis hotel yang dipesan).
+2. Arrival Date (Month dan Day of Month).
+3. Meal (Jenis paket makanan yang dipesan).
+4. is_repeated_guest (Pelanggan yang pernah memesan sebelumnya).
+5. Customer Type (Jenis pemesanan pelanggan).
+
+#### **B. Metodologi yang Digunakan**
+1. Menangani Missing Value
+2. Exploratory Data Analysis (EDA) yaitu mengidentifikasi pola dan tren untuk memahami perilaku pelanggan.
+3. Analisis Deskriptif untuk mengidentifikasi tren berdasarkan waktu, jenis pemesanan, dan preferensi pelanggan.
+
+### 1.4 Manfaat Hasil Analisis
+#### **Wawasan yang strategis kepada seorang manajer hotel**
 1. Dapat mengembangkan layanan untuk semua pelanggan.
 2. Merancang Strategi pemasaran yang lebih baik.
 3. Memaksimalkan operasional hotel ketika jumlah pelanggan meningkat tajam.
@@ -41,20 +54,6 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 
 1. Meningkatkan kualitas layanan hotel, sehingga pelanggan akan merasa lebih puas dan nyaman.
 2. Membangun hubungan yang lebih baik dengan pelanggan untuk menciptakan pengalaman yang positif dan mendorong pelanggan untuk tetap memilih hotel tersebut di masa mendatang.
-
-## **2. Analisis Data**
-
-### **A. Variabel-variabel berikut untuk dianalisis**
-1. Hotel (Jenis hotel yang dipesan).
-2. Arrival Date (Month dan Day of Month).
-3. Meal (Jenis paket makanan yang dipesan).
-4. is_repeated_guest (Pelanggan yang pernah memesan sebelumnya).
-5. Customer Type (Jenis pemesanan pelanggan).
-
-### **B. Metodologi yang Digunakan**
-1. Menangani Missing Value
-2. Exploratory Data Analysis (EDA) yaitu mengidentifikasi pola dan tren untuk memahami perilaku pelanggan.
-3. Analisis Deskriptif untuk mengidentifikasi tren berdasarkan waktu, jenis pemesanan, dan preferensi pelanggan.
 
 ## **3. Hasil Analysis Problem Question**
 
