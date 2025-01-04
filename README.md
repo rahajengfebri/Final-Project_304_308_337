@@ -6,9 +6,9 @@
    2. [Data dan Metodologi yang Digunakan](#12--data-dan-metodologi-yang-digunakan)
    3. [Teknik Analisis yang Diusulkan](#13-teknik-analisis-yang-diusulkan)
    4. [Manfaat Hasil Analisis](#14-manfaat-hasil-analisis)
-3. [Data Preparation](#3--data-preparation)
-   3.1. [Sumber Dataset](#31-sumber-dataset) 
-   3.2. [Detail Dataset](#32-detail-dataset) 
+5. [Data Preparation](#3--data-preparation)
+   6.[Sumber Dataset](#31--sumber-dataset) 
+   7.[Detail Dataset](#32-%EF%B8%8F-detail-dataset) 
       
 Manfaat Hasil Analisis
 
