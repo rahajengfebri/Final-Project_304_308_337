@@ -174,9 +174,22 @@ Dengan pengelompokan ini, manajemen hotel dapat menganalisis tren musiman dan me
 
 Apakah penjelasan ini sudah cukup singkat?
 ![download](https://github.com/user-attachments/assets/097f178b-e68a-4bda-828d-a908a079c85e)
-
 Dari hasil visualisasi diatas, dapat dilihat bahwa pemesanan paling banyak terjadi pada musim summer, khususnya pada bulan Juni, Juli, dan Agustus. Ini menunjukkan bahwa banyak tamu yang memilih untuk menginap di hotel selama liburan musim panas, yang biasanya bertepatan dengan liburan sekolah atau waktu-waktu liburan yang lebih panjang.
----
+### 4.2 
+Dalam analisis ini, kami membandingkan tingkat pembatalan pemesanan berdasarkan dua tipe hotel: City Hotel dan Resort Hotel. Tingkat pembatalan dihitung sebagai persentase dari total pemesanan yang dibatalkan. Perbandingan ini memungkinkan untuk memahami perbedaan tingkat pembatalan antara kedua tipe hotel, yang dapat membantu dalam perencanaan sumber daya dan strategi pemasaran.
+
+**Cara Kerja:**
+
+1. **Menghitung Tingkat Pembatalan**: Kolom **'cancellation_rate'** dihitung dengan mengelompokkan data berdasarkan **'hotel'** dan menghitung rata-rata kolom **'is_canceled'** untuk setiap tipe hotel, lalu mengalikannya dengan 100 untuk mendapatkan persentase pembatalan.
+2. **Visualisasi**: Menggunakan **sns.barplot()** untuk membuat grafik batang yang menampilkan tingkat pembatalan berdasarkan tipe hotel, dengan warna yang berbeda untuk setiap tipe.
+3. **Menambahkan Nilai Persentase**: Persentase tingkat pembatalan ditampilkan di atas setiap batang pada grafik menggunakan **plt.text()**.
+4. **Menambahkan Legenda**: Legenda ditambahkan untuk membedakan City Hotel dan Resort Hotel menggunakan **plt.Line2D()**.
+
+Hasil analisis ini memberikan wawasan mengenai perbedaan tingkat pembatalan antara tipe hotel, yang dapat membantu manajemen hotel untuk merencanakan strategi pengelolaan lebih baik.
+
+
+
+## 4.3
 ![download (7)](https://github.com/user-attachments/assets/c8118450-2453-439d-9525-a567af9c794b)
 
 Berdasarkan grafik yang disajikan, hubungan antara lead time (jumlah hari antara tanggal pemesanan masuk ke sistem dan tanggal kedatangan) dengan customer type dapat dianalisis sebagai berikut:
