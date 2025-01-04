@@ -104,15 +104,17 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 
 | **Library**                      | **Fungsi**                                                            |
 |-----------------------------------|----------------------------------------------------------------------|
-| [Google Colab Drive](https://colab.research.google.com/notebooks/intro.ipynb) | Menghubungkan Google Drive ke Google Colab.                           |
-| [Pandas](https://pandas.pydata.org/) | Manipulasi dan analisis data dalam bentuk tabel (DataFrame).          |
-| [Matplotlib](https://matplotlib.org/) | Membuat visualisasi data seperti grafik batang, garis, dan lainnya.   |
-| [Seaborn](https://seaborn.pydata.org/) | Membuat visualisasi statistik dengan tampilan estetis.                |
-| [Warnings](https://docs.python.org/3/library/warnings.html) | Menangani atau menyembunyikan peringatan yang tidak relevan.          |
+| <a href="https://colab.research.google.com/notebooks/intro.ipynb" target="_blank">Google Colab Drive</a> | Menghubungkan Google Drive ke Google Colab.                           |
+| <a href="https://pandas.pydata.org/" target="_blank">Pandas</a> | Manipulasi dan analisis data dalam bentuk tabel (DataFrame).          |
+| <a href="https://matplotlib.org/" target="_blank">Matplotlib</a> | Membuat visualisasi data seperti grafik batang, garis, dan lainnya.   |
+| <a href="https://seaborn.pydata.org/" target="_blank">Seaborn</a> | Membuat visualisasi statistik dengan tampilan estetis.                |
+| <a href="https://docs.python.org/3/library/warnings.html" target="_blank">Warnings</a> | Menangani atau menyembunyikan peringatan yang tidak relevan.          |
+
 ## 3. 🌟 **Data Preparation**
 
 ### 3.1 📂 **Sumber Dataset**
-Data yang digunakan dalam analisis ini berasal dari kumpulan data permintaan pemesanan hotel yang dikumpulkan oleh Antonio, Almeida, dan Nunes pada tahun 2019. Berikut link dataset yang digunakan [(Dataset) ](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/readme.md)
+Data yang digunakan dalam analisis ini berasal dari kumpulan data permintaan pemesanan hotel yang dikumpulkan oleh Antonio, Almeida, dan Nunes pada tahun 2019. Berikut link dataset yang digunakan [**(Dataset)**](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/readme.md){:target="_blank"}
+
 ### 3.2 🗃️ **Detail Dataset**
 
 #### Tujuan dataset
