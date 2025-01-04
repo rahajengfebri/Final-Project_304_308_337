@@ -105,7 +105,7 @@ Namun, dataset ini memiliki beberapa nilai yang hilang pada kolom seperti jumlah
 
 1. Meningkatkan kualitas layanan hotel, sehingga pelanggan akan merasa lebih puas dan nyaman.
 2. Membangun hubungan yang lebih baik dengan pelanggan untuk menciptakan pengalaman yang positif dan mendorong pelanggan untuk tetap memilih hotel tersebut di masa mendatang.
-## 2. 📂 *Library/Package Python*
+## 2. 📂 **Library/Package Python**
 
 | **Library**                      | **Fungsi**                                                            |
 |-----------------------------------|----------------------------------------------------------------------|
